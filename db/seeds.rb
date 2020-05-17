@@ -31,10 +31,10 @@ Shoe.create(name:'Kedda Loafer ', price:198.50, generic_color: 'navy', color:'Na
 # Shoe.create(name:'', price:, generic_color: '', color:'', rating:, img_url:'')
 p "shoes seeded"
 
-Outfit.create(user_id:1, top_id:1, bottom_id:1, shoe_id:2)
-Outfit.create(user_id:2, top_id:3, bottom_id:3, shoe_id:1)
-Outfit.create(user_id:2, top_id:2, bottom_id:2, shoe_id:3)
-# Outfit.create(user_id:, top_id:, bottom_id:, shoe_id:)
+Outfit.create(user_id:1, top_id:1, bottom_id:1, shoe_id:2, name:'Casual', likes:1)
+Outfit.create(user_id:2, top_id:3, bottom_id:3, shoe_id:1, name:'Chill', likes:2)
+Outfit.create(user_id:2, top_id:2, bottom_id:2, shoe_id:3, name:'Effortless', likes:3)
+# Outfit.create(user_id:, top_id:, bottom_id:, shoe_id:, name:'', likes:)
 p "outfits seeded"
 
 FavoriteTop.create(user_id:1, top_id:1)
