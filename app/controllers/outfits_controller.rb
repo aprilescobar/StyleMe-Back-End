@@ -1,7 +1,7 @@
 class OutfitsController < ApplicationController
     def index
         outfits = Outfit.all
-        render json: outfits, except: [:updated_at], include: [:top, :bottom, :shoe, :user, :comments]
+        render json: outfits, except: [:updated_at], include: [:user,:top, :bottom, :shoe]
      end 
   
      def show 
@@ -11,7 +11,7 @@ class OutfitsController < ApplicationController
   
      def create
         outfit = Outfit.create(outfit_params)
-        render json: outfit, except: [:updated_at], status:201
+        render json: outfit, except: [:updated_at], include: [:user,:top, :bottom, :shoe], status:201
      end 
   
      def update
@@ -27,6 +27,6 @@ class OutfitsController < ApplicationController
   
      private 
      def outfit_params
-        params.require(:outfit).permit(:user_id, :top_id, :bottom_id, :shoe_id, , :likes, :name)
+        params.require(:outfit).permit(:user_id, :top_id, :bottom_id, :shoe_id, :likes, :name)
      end 
 end
