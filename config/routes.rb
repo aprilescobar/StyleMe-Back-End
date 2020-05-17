@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  resources :favorite_shoes, only: [:index]
-  resources :favorite_bottoms , only: [:index]
-  resources :favorite_tops , only: [:index]
+  resources :favorite_shoes, except: [:show, :update]
+  resources :favorite_bottoms, except: [:show, :update]
+  resources :favorite_tops, except: [:show, :update]
   resources :outfits
   resources :shoes, only: [:index, :show]
   resources :bottoms, only: [:index, :show]

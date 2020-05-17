@@ -6,7 +6,7 @@ class OutfitsController < ApplicationController
   
      def show 
         outfit = Outfit.find(params[:id])
-        render json: outfit, except: [:updated_at]
+        render json: outfit, except: [:updated_at], include: [:user,:top, :bottom, :shoe]
      end 
   
      def create
