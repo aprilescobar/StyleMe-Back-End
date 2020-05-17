@@ -10,16 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_17_001940) do
+ActiveRecord::Schema.define(version: 2020_05_17_004848) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "bottoms", force: :cascade do |t|
     t.string "name"
-    t.integer "price"
+    t.float "price"
     t.string "color"
-    t.integer "rating"
+    t.string "generic_color"
+    t.float "rating"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -57,8 +58,6 @@ ActiveRecord::Schema.define(version: 2020_05_17_001940) do
     t.bigint "top_id", null: false
     t.bigint "bottom_id", null: false
     t.bigint "shoe_id", null: false
-    t.string "name"
-    t.integer "likes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["bottom_id"], name: "index_outfits_on_bottom_id"
@@ -69,9 +68,10 @@ ActiveRecord::Schema.define(version: 2020_05_17_001940) do
 
   create_table "shoes", force: :cascade do |t|
     t.string "name"
-    t.integer "price"
+    t.float "price"
     t.string "color"
-    t.integer "rating"
+    t.string "generic_color"
+    t.float "rating"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -79,9 +79,10 @@ ActiveRecord::Schema.define(version: 2020_05_17_001940) do
 
   create_table "tops", force: :cascade do |t|
     t.string "name"
-    t.integer "price"
+    t.float "price"
     t.string "color"
-    t.integer "rating"
+    t.string "generic_color"
+    t.float "rating"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

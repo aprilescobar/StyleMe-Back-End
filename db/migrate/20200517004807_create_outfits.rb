@@ -5,8 +5,6 @@ class CreateOutfits < ActiveRecord::Migration[6.0]
       t.references :top, null: false, foreign_key: true
       t.references :bottom, null: false, foreign_key: true
       t.references :shoe, null: false, foreign_key: true
-      t.string :name
-      t.integer :likes
 
       t.timestamps
     end
