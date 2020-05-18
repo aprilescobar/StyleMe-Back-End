@@ -1,7 +1,7 @@
 class FavoriteTopsController < ApplicationController
     def index
         favoriteTops = FavoriteTop.all
-        render json: favoriteTops, except: [:updated_at]
+        render json: favoriteTops, except: [:updated_at], include: [:top]
      end
      
      def create
