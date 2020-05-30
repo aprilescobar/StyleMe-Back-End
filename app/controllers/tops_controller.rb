@@ -6,6 +6,6 @@ class TopsController < ApplicationController
   
      def show 
         top = Top.find(params[:id])
-        render json: top, except: [:updated_at]
+        render json: top, except: [:updated_at], include: [:outfits]
      end 
 end
