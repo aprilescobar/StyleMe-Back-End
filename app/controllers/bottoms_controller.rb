@@ -6,6 +6,6 @@ class BottomsController < ApplicationController
   
      def show 
         bottom = Bottom.find(params[:id])
-        render json: bottom, except: [:updated_at]
+        render json: bottom, except: [:updated_at], include: [:outfits]
      end 
 end
