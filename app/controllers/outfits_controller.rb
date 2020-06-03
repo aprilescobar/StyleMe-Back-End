@@ -10,8 +10,12 @@ class OutfitsController < ApplicationController
      end 
   
      def create
-        outfit = Outfit.create(outfit_params)
-        render json: outfit, except: [:updated_at], include: [:user,:top, :bottom, :shoe], status:201
+         outfit = Outfit.new(outfit_params)
+         if outfit.save
+            render json: outfit, except: [:updated_at], include: [:user,:top, :bottom, :shoe], status:201
+         else
+            render json: {errors: outfit.errors.full_messages}
+         end
      end 
   
      def update
