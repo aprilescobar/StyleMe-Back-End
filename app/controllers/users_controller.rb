@@ -14,7 +14,7 @@ class UsersController < ApplicationController
         user = User.new(user_params)
         if user.save
         #   token = encode_token(user.id)
-        render json: {user: user}
+        render json: {user: user},  except: [:created_at, :updated_at], include: [:outfits, :favorite_tops, :favorite_bottoms, :favorite_shoes], status:201
         else
         render json: {errors: user.errors.full_messages}
         end
