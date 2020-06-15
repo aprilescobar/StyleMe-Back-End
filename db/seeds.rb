@@ -8,8 +8,8 @@
 
 p "seeding..."
 
-User.create(name:'Poppy', username:'impoppy', password:'pop', img_url:'https://i.insider.com/5a1f32cf3dbef425008b90e2?width=1100&format=jpeg&auto=webp')
-User.create(name:'Eva', username:'mylifeaseva', password:'eva', img_url:'https://assets.entrepreneur.com/content/3x2/2000/20180710145416-eva-gutowski.jpeg')
+User.create(name:'Poppy', username:'impoppy', password:'pop', img_url:'https://i.pinimg.com/originals/3a/e7/cc/3ae7cc4db0cd87143b8f2363750e7911.jpg')
+User.create(name:'Eva', username:'mylifeaseva', password:'eva', img_url:'https://cdn130.picsart.com/325016834063201.jpg?type=webp&to=crop&r=256')
 # User.create(name:'', username:'', password:'', img_url:'')
 p "users created"
 
