@@ -1,39 +1,302 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
 p "seeding..."
 
-User.create(name:'Poppy', username:'impoppy', password:'pop', img_url:'https://i.pinimg.com/originals/3a/e7/cc/3ae7cc4db0cd87143b8f2363750e7911.jpg')
-User.create(name:'Eva', username:'mylifeaseva', password:'eva', img_url:'https://cdn130.picsart.com/325016834063201.jpg?type=webp&to=crop&r=256')
-# User.create(name:'', username:'', password:'', img_url:'')
+User.create(
+    name:'Poppy', 
+    username:'impoppy', 
+    password:'pop', 
+    img_url:'https://i.pinimg.com/originals/3a/e7/cc/3ae7cc4db0cd87143b8f2363750e7911.jpg'
+)
+
+User.create(
+    name:'Eva', 
+    username:'mylifeaseva', 
+    password:'eva', 
+    img_url:'https://cdn130.picsart.com/325016834063201.jpg?type=webp&to=crop&r=256'
+)
+
+User.create(
+    name:'Jenn', 
+    username:'JennIm', 
+    password:'jen', 
+    img_url:'https://a.wattpad.com/useravatar/ImJennHerron.256.859777.jpg'
+)
+
+# User.create(
+#     name:'', 
+#     username:'', 
+#     password:'', 
+#     img_url:''
+# )
+
 p "users created"
 
-Top.create(name:'Linen Boatneck Sweater', price:98.50, generic_color: 'multi', color:'Flax Multi', category:'tops', rating:4, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1371702_lifestyle?$CMPDP$')
-Top.create(name:'Jandina Knit Top', price:98.50, generic_color: 'stripe', color:'Blue/White Stripe', category:'tops', rating:5, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1371599_alternate2?$CMPDP$')
-Top.create(name:'Perfect Striped Tank', price:59.50, generic_color: 'stripe', color:'Stripe', category:'tops', rating:3, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1365462_lifestyle?$CMPDP$')
-# Top.create(name:'', price:, generic_color: '', color:'', category:'tops', rating:, img_url:'')
+# ----------------------------------------------------------------------------------------------------- #
+# ----------------------------------------------TOPS--------------------------------------------------- #
+# ----------------------------------------------------------------------------------------------------- #
+
+Top.create(
+    name:'Balloon-Sleeved', 
+    price: 14.99, 
+    generic_color: 'white', 
+    color:'White', 
+    category:'tops', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/89/7a/897a236a1e8c6691e3da93388105af45f575398f.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+)
+
+Top.create(
+    name:'V-Neck Blouse', 
+    price: 24.99, 
+    generic_color: 'Black', 
+    color:'Black', 
+    category:'tops', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bb/8b/bb8bdbab848febe9b2378fd04f63814c55d86afa.jpg],origin[dam],category[ladies_shirtsblouses_blouses],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+)
+
+Top.create(
+    name:'V-neck Linen', 
+    price: 17.99, 
+    generic_color: 'black', 
+    color:'Black', 
+    category:'tops', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/26/c7/26c70b0fcbca8976cfeea07769fe924a63a55de2.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
+)
+
+# Top.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '', 
+#     color:'', 
+#     category:'tops', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Top.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '', 
+#     color:'', 
+#     category:'tops', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Top.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '', 
+#     color:'', 
+#     category:'tops', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Top.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '', 
+#     color:'', 
+#     category:'tops', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Top.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '', 
+#     color:'', 
+#     category:'tops', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+
 p "tops seeded"
 
-Bottom.create(name:'Cord Tie Short', price:79.50, generic_color: 'blue', color:'Chambray Stripe', category:'bottoms', rating:3, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1371527_lifestyle?$CMPDP$')
-Bottom.create(name:'Refined Short', price:89.50, generic_color: 'black', color:'Black', category:'bottoms', rating:5, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1371518_lifestyle?$CMPDP$')
-Bottom.create(name:'Burnout Pleated Skirt', price:179.50, generic_color: 'white', color:'White Combo', category:'bottoms', rating:4, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1371517_lifestyle?$CMPDP$')
-# Bottom.create(name:'', price:, generic_color: '', color:'', category:'bottoms', rating:, img_url:'')
+# ----------------------------------------------------------------------------------------------------- #
+# ---------------------------------------------BOTTOMS------------------------------------------------- #
+# ----------------------------------------------------------------------------------------------------- #
+
+Bottom.create(
+    name:'Boyfriend Low Regular', 
+    price: 39.99, 
+    generic_color: 'light blue',
+    color:'Light Blue/Trashed', 
+    category:'bottoms', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0e/e3/0ee3fdfd06ab40b7f2915d1563b002ee5b914769.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+)
+
+Bottom.create(
+    name:'Super Skinny High', 
+    price: 19.99, 
+    generic_color: 'Black',
+    color:'Black', 
+    category:'bottoms', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7c/6e/7c6ed6bf87f52c540d8d56b591a99f62557ad928.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+)
+
+Bottom.create(
+    name:'Embrace High Ankle', 
+    price: 39.99, 
+    generic_color: 'Black',
+    color:'Black', 
+    category:'bottoms', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ce/c6/cec6b97d8022b4c9b4d49cf897594c0abd71b44c.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+)
+
+# Bottom.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'bottoms', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Bottom.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'bottoms', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Bottom.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'bottoms', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Bottom.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'bottoms', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Bottom.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'bottoms', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+
 p "bottoms seeded"
 
-Shoe.create(name:'Giulina Slingback Pump', price:249.00, generic_color: 'white', color:'white', category:'shoes', rating:4, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1365644_alternate2?$CMPDP$')
-Shoe.create(name:'Peechie Flat', price:198.50, generic_color: 'black', color:'Black', category:'shoes', rating:3, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1365642_lifestyle?$CMPDP$')
-Shoe.create(name:'Kedda Loafer ', price:198.50, generic_color: 'navy', color:'Navy', category:'shoes', rating:5, img_url:'https://www.rlmedia.io/is/image/PoloGSI/s7-1365635_lifestyle?$CMPDP$')
-# Shoe.create(name:'', price:, generic_color: '', color:'', category:'shoes', rating:, img_url:'')
+# ----------------------------------------------------------------------------------------------------- #
+# ----------------------------------------------SHOES-------------------------------------------------- #
+# ----------------------------------------------------------------------------------------------------- #
+
+
+Shoe.create(
+    name:'Wedge-heeled Sandals', 
+    price: 49.99, 
+    generic_color: 'Light Beige',
+    color:'Light Beige', 
+    category:'shoes', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/61/1d/611dce605d7f9aba1904b347c13513abd73481e2.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
+)
+
+Shoe.create(
+    name:'Loafers', 
+    price: 14.99, 
+    generic_color: 'Black',
+    color:'Black', 
+    category:'shoes', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a0/5f/a05ff46048e8d67c5f94901a6b2c6c26b0c09112.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVESTILLLIFE],res[m],hmver[4]&call=url[file:/product/main]'
+)
+
+Shoe.create(
+    name:'Sneakers', 
+    price: 19.99, 
+    generic_color: 'white',
+    color:'White', 
+    category:'shoes', 
+    rating: 5, 
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dd/09/dd0919c92f43ed38a27c42fab446d9ef1126f9a5.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
+)
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'shoes', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'shoes', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'shoes', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'shoes', 
+#     rating: 5, 
+#     img_url:''
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     generic_color: '',
+#     color:'', 
+#     category:'shoes', 
+#     rating: 5, 
+#     img_url:''
+# )
+
 p "shoes seeded"
 
-Outfit.create(user_id:1, top_id:1, bottom_id:1, shoe_id:2, name:'Casual', likes:1)
-Outfit.create(user_id:2, top_id:3, bottom_id:3, shoe_id:1, name:'Chill', likes:2)
-Outfit.create(user_id:2, top_id:2, bottom_id:2, shoe_id:3, name:'Effortless', likes:3)
+Outfit.create(user_id:1, top_id:1, bottom_id:1, shoe_id:1, name:'Casual', likes:1)
+
+Outfit.create(user_id:2, top_id:2, bottom_id:2, shoe_id:2, name:'Chill', likes:2)
+
+Outfit.create(user_id:3, top_id:3, bottom_id:3, shoe_id:3, name:'Effortless', likes:3)
+
 # Outfit.create(user_id:, top_id:, bottom_id:, shoe_id:, name:'', likes:)
 p "outfits seeded"
 
