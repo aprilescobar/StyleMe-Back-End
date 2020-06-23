@@ -21,13 +21,13 @@ class UsersController < ApplicationController
     end
 
     def update
-        user = user.find_by(id: params[:id])
+        user = User.find_by(id: params[:id])
         user.update(user_params)
-        render json: user, except: [:created_at, :updated_at], status:201
+        render json: user, except: [:created_at, :updated_at], include: [:outfits, :favorite_tops, :favorite_bottoms, :favorite_shoes], status:201
      end 
   
      def destroy 
-        user = user.find_by(id: params[:id])
+        user = User.find_by(id: params[:id])
         user.destroy
      end 
 
