@@ -168,265 +168,52 @@ p "bottoms seeded"
 # ----------------------------------------------SHOES-------------------------------------------------- #
 # ----------------------------------------------------------------------------------------------------- #
 
-
 Shoe.create(
-    name:'Wedge-heeled Sandals', 
-    price: 49.99, 
-    generic_color: 'Light Beige',
-    color:'Light Beige', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/61/1d/611dce605d7f9aba1904b347c13513abd73481e2.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Loafers', 
-    price: 14.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a0/5f/a05ff46048e8d67c5f94901a6b2c6c26b0c09112.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVESTILLLIFE],res[m],hmver[4]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Sneakers', 
-    price: 19.99, 
-    generic_color: 'white',
-    color:'White', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dd/09/dd0919c92f43ed38a27c42fab446d9ef1126f9a5.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Platform', 
+    name:'Platform Sneakers', 
     price: 29.99, 
-    generic_color: 'White',
-    color:'White', 
+    color:'white', 
     category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/44/58/4458e66b20f9d6cec167d6ff6ff72e6234ca6d47.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer, fall, winter',  
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a6/01/a60163ae2425809d65a601e17f3945c6d242c942.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/44/58/4458e66b20f9d6cec167d6ff6ff72e6234ca6d47.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dd/d5/ddd51d80d9709c52cb73ba8ae89899f5bd4f2022.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[y],hmver[1]&call=url[file:/product/main]',
 )
 
 Shoe.create(
-    name:'Platform Espadrilles', 
-    price: 24.99, 
-    generic_color: 'Neutral',
-    color:'Brown/Glittery', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4c/97/4c97109bdb8dc197308bfea30e993acbef847147.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Platform Espadrilles', 
-    price: 24.99,  
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6f/73/6f73c16dfc692f22621971dcc5e8369752862b65.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Sandals', 
-    price: 24.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9f/73/9f73b8cd5dfa30db0952cd7f11d3bd5865bb08cd.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Sandals', 
-    price: 24.99, 
-    generic_color: 'Gold',
-    color:'Gold', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/af/70/af70e398998a907c0efba7bb0f0a22bb6ee78402.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Wedge-heel Espadrilles', 
-    price: 34.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1c/34/1c34eb2a7232aa5b48b4806731f7028aa263afb0.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Slingbacks', 
-    price: 17.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1d/97/1d977f9cf688e109fb447b738d0b01bd4a62b8c8.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Wedge-heeled', 
-    price: 39.99, 
-    generic_color: 'Red',
-    color:'Red', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/13/aa132396f853ce80bd77d363dcd34c49548e3f17.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Wedge-heeled', 
-    price: 39.99, 
-    generic_color: 'Neutral',
-    color:'Taupe', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/85/3d/853df7e95c133cf129d1198827ff82dad48c0352.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Sandals', 
-    price: 34.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e4/c1/e4c1f15db6784118d087aef1a082de6bab272045.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Sandals', 
-    price: 34.99, 
-    generic_color: 'Neutral',
-    color:'Beige', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/88/4a/884a98f2df722ae75f372d1ca0d69b6bdc414fea.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Slip-on', 
-    price: 59.99, 
-    generic_color: 'Neutral',
-    color:'Light', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4c/e8/4ce823464f8fd23f4a35e75c21cb942caafb4ece.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Sandals', 
-    price: 24.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/09/bd/09bd9dd01fba3375dd372368c51dcdedad7f1229.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Sandals', 
+    name:'Platform Sneakers', 
     price: 29.99, 
-    generic_color: 'Black',
-    color:'Black', 
+    color:'light yellow batik patterned', 
     category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ad/d1/add1fd32a778fb00b76112c7b214da9ded68a4cb.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer',  
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/19/3f/193ffc0598370f648a9c84c10392fa7b833c8de8.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/45/22/4522363f145f6e3dbd3635c8ccd79bb5fd58d6d2.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/73/ea/73eaadbfbb749475330b419d1248f5092ca8e7be.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[y],hmver[1]&call=url[file:/product/main]',
 )
 
 Shoe.create(
-    name:'Sandals', 
-    price: 29.99,  
-    generic_color: 'Green',
-    color:'Khaki Green', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/df/a9/dfa9192af5dd227242b4811ec66aef11610a83cb.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Wedge-Heeled', 
-    price: 34.99, 
-    generic_color: 'Red',
-    color:'Bright Red', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/64/c2/64c29a7deecc9fbaefe3c1e01a8e2fa8d26a1665.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Wedge-Heeled', 
-    price: 34.99, 
-    generic_color: 'Gold',
-    color:'Gold', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a6/a4/a6a46caff941e401666875201bfed095059790f3.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Wedge-Heeled', 
-    price: 39.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/38/b7/38b7dcdc23df9cea266b2a83217a61bc1089cfac.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Fully-Fashioned', 
+    name:'Platform Sneakers', 
     price: 29.99, 
-    generic_color: 'Neutral',
-    color:'Taupe', 
+    color:'light purple', 
     category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/22/5c/225cc353afb7e361ead88833b036dfeb6eb817dc.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Pumps', 
-    price: 29.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1c/0d/1c0d5b1cd6f40c956f82a59619eb2dad6dff971a.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Ballet Flats', 
-    price: 17.99, 
-    generic_color: 'Neutral',
-    color:'Beige', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/35/f3/35f3c8c3c2af24de6a83145ab02ebcf612f369bf.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Shoe.create(
-    name:'Canvas Sneakers', 
-    price: 12.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'shoes', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6d/6c/6d6c6bb3880215b74fd9d4a7d7f838b792a9c106.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer',  
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/00/43/00439cbe829af31958c0b3df4df848d0b3cf4335.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/69/9f/699f96d876faf4ddedfc582b5959bbf8ff6d56f7.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c1/2c/c12c098ca6e6316dc3c1e182c449694eb1c08d68.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[y],hmver[1]&call=url[file:/product/main]',
 )
 
 # Shoe.create(
 #     name:'', 
 #     price:, 
-#     generic_color: '',
 #     color:'', 
 #     category:'shoes', 
-#     rating: 5, 
-#     img_url:''
+#     seasons: '', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
 # )
 
 
