@@ -58,267 +58,59 @@ p "users created"
 # ----------------------------------------------TOPS--------------------------------------------------- #
 # ----------------------------------------------------------------------------------------------------- #
 
+
 Top.create(
-    name:'Balloon-Sleeved', 
-    price: 14.99, 
+    name:'Short Top', 
+    price: 12.99, 
+    color:'white', 
     generic_color: 'white', 
-    color:'White', 
     category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/89/7a/897a236a1e8c6691e3da93388105af45f575398f.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'V-Neck Blouse', 
-    price: 24.99, 
-    generic_color: 'Black', 
-    color:'Black', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bb/8b/bb8bdbab848febe9b2378fd04f63814c55d86afa.jpg],origin[dam],category[ladies_shirtsblouses_blouses],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Boxy Sweatshirt', 
-    price: 49.99, 
-    generic_color: 'Purple', 
-    color:'Light Purple', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fa/19/fa1966b612decb39015a8e516f97e162d0c02b24.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'V-neck Linen', 
-    price: 17.99, 
-    generic_color: 'black', 
-    color:'Black', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/26/c7/26c70b0fcbca8976cfeea07769fe924a63a55de2.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Crinkled Tie-hem', 
-    price: 17.99, 
-    generic_color: 'White', 
-    color:'Cream', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ce/73/ce73477cf7b06ce848f7db19744a9f68783e28fa.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Ballon-Sleeved', 
-    price: 12.99, 
-    generic_color: 'Black', 
-    color:'Black', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/2b/aa2b9b9715e98617dcc915a5b2dcd68f7bd1a756.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Tie-hem', 
-    price: 24.99, 
-    generic_color: 'White', 
-    color:'White', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/53/f1/53f1e17144263ec9d74b01cd3eaa73e281d638e1.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Hoodie', 
-    price: 17.99, 
-    generic_color: 'Pink', 
-    color:'Powder Pink/Heart', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ab/e8/abe8c0ed8d9d99ae059cd48babc9ece4639ebf70.jpg],origin[dam],category[ladies_hoodiesswetshirts_hoodies],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Wide-Cut Cotton', 
-    price: 9.99, 
-    generic_color: 'Neutral', 
-    color:'Taupe', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2f/4d/2f4d69915bc08b9d6e1f09bf2f2eaa07dff6de26.jpg],origin[dam],category[ladies_tops_shortsleeve],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Jacquard-weave', 
-    price: 17.99, 
-    generic_color: 'Blue', 
-    color:'Bright Blue', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/03/ab/03ab02fc3029554f70d8d77d0b4dff7a6245a7ca.jpg],origin[dam],category[ladies_tops],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Cropped Top', 
-    price: 5.99, 
-    generic_color: 'Neutral', 
-    color:'Light Beige', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1c/52/1c5202d818126f61ddd9a42665c50f2477205cd2.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Sweatshirt with Lacing', 
-    price: 49.99, 
-    generic_color: 'Neutral', 
-    color:'Light Beige', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0b/66/0b66df495d0b946706e909aeff907ec284589133.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Cotton Shirt', 
-    price: 17.99, 
-    generic_color: 'Checked', 
-    color:'Mint Green', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d4/c8/d4c85a097a04131c248777cefd4b797c00d695bf.jpg],origin[dam],category[ladies_shirtsblouses_shirts],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Ribbed Tank', 
-    price: 9.99, 
-    generic_color: 'Black', 
-    color:'Black', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c1/f4/c1f44eb959312416c3058b455679d0e29c59cc79.jpg],origin[dam],category[ladies_basics_tops_vests],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Sweater', 
-    price: 9.99, 
-    generic_color: 'Gray', 
-    color:'Light Gray', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6e/ab/6eabd68209b300b351e225f8bc523b559a28d3de.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'V-neck', 
-    price: 24.99, 
-    generic_color: 'Pink', 
-    color:'Coral Pink', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/31/ec/31ec014c001b4e4468a91b04e3e80fce4c9c605c.jpg],origin[dam],category[ladies_shirtsblouses_blouses],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Sleeveless', 
-    price: 12.99, 
-    generic_color: 'Black', 
-    color:'Black/White Dotted', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/86/f7/86f752fb985a54f93d94ab7245a6187c3bbbe4f0.jpg],origin[dam],category[ladies_shirtsblouses_blouses],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Loose-knit Sweater', 
-    price: 24.99, 
-    generic_color: 'Green', 
-    color:'Khaki Green', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7e/e3/7ee396e983108d92a719bad64e820342accd8129.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Crêped Blouse', 
-    price: 17.99, 
-    generic_color: 'Printed', 
-    color:'White/Blue Floral', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/23/f5/23f5dbd546910f018e106be65f600b0fc240544e.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Ribbed Turtleneck', 
-    price: 14.99, 
-    generic_color: 'Black', 
-    color:'Black', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1b/d3/1bd39548fbc5c53dbe91d0e6cc06f9d32b207394.jpg],origin[dam],category[ladies_cardigansjumpers_turtlenecks],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Top.create(
-    name:'Loose-knit Sweater', 
-    price: 24.99, 
-    generic_color: 'Neutral', 
-    color:'Light Beige', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/82/2c/822ca2b7ddc80b77dbb6b9588346cb6fedbd9196.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer, fall, winter', 
+    sleeve_length: 'short',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2c/3c/2c3c5f92224f90bfc33de44fa7c09f04dac4f16a.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6e/ed/6eed0c60e0569c686bd09d8be74b1c8129d8667b.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/26/69/266913cb6776f8813a1fe80bf213253a4e174de5.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]'
 )
 
 Top.create(
     name:'Short Top', 
     price: 12.99, 
-    generic_color: 'White', 
-    color:'White', 
+    color:'black', 
+    generic_color: 'black', 
     category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2c/3c/2c3c5f92224f90bfc33de44fa7c09f04dac4f16a.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer, fall, winter', 
+    sleeve_length: 'short',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/76/e5/76e5c0aa72356d9f57acf45f3347ac54a8d42b13.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/65/c6/65c60f4f7a5241b62b06e5235970a11e408fa521.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[y],hmver[1]&call=url[file:/product/main]',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4a/59/4a593cd03c4ae72318487142fd9bed02999a696d.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]'
 )
 
 Top.create(
-    name:'Tie-hem', 
-    price: 24.99, 
-    generic_color: 'stripes', 
-    color:'Blue/White Striped', 
+    name:'Short Top', 
+    price: 12.99, 
+    color:'light purple', 
+    generic_color: 'light purple', 
     category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0f/12/0f12beb8f1ad696e9c899f8d93b1eecd9d2550f9.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer, fall, winter', 
+    sleeve_length: 'short',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/00/8c/008cfdf45a07ce55c5d39c304a947c577949ee4c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/87/06/8706a24e8d5d9ba003d101e3db66193b90f8d00b.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/10/fa/10fa2ce13abd7ea9894eb984cccae03aa2208ef3.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]'
 )
-
-Top.create(
-    name:'Hoodie', 
-    price: 19.99, 
-    generic_color: 'Black', 
-    color:'Black', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/cf/62/cf626d097894be598944f3aba2d4b2662f7b4241.jpg],origin[dam],category[ladies_cardigansjumpers_hoodiessweatshirts],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-
-Top.create(
-    name:'Denim Shirt', 
-    price: 29.99, 
-    generic_color: 'Denim', 
-    color:'Light Denim', 
-    category:'tops', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/de/d4/ded409e1042bdfbc3f01f40e7ba927ace583a569.jpg],origin[dam],category[ladies_shirtsblouses_shirts],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
 
 # Top.create(
 #     name:'', 
 #     price:, 
-#     generic_color: '', 
 #     color:'', 
+#     generic_color: '', 
 #     category:'tops', 
-#     rating: 5, 
-#     img_url:''
+#     seasons: '', 
+#     sleeve_length: '',
+#     img_url:'',
+#     back_view:'',
+#     live_view:''
 # )
+
 
 p "tops seeded"
 
