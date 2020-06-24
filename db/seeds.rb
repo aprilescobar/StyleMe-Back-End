@@ -63,52 +63,48 @@ Top.create(
     name:'Short Top', 
     price: 12.99, 
     color:'white', 
-    generic_color: 'white', 
     category:'tops', 
     seasons: 'spring, summer, fall, winter', 
     sleeve_length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/26/69/266913cb6776f8813a1fe80bf213253a4e174de5.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
     img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2c/3c/2c3c5f92224f90bfc33de44fa7c09f04dac4f16a.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
     back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6e/ed/6eed0c60e0569c686bd09d8be74b1c8129d8667b.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
-    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/26/69/266913cb6776f8813a1fe80bf213253a4e174de5.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]'
 )
 
 Top.create(
     name:'Short Top', 
     price: 12.99, 
     color:'black', 
-    generic_color: 'black', 
     category:'tops', 
     seasons: 'spring, summer, fall, winter', 
     sleeve_length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4a/59/4a593cd03c4ae72318487142fd9bed02999a696d.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
     img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/76/e5/76e5c0aa72356d9f57acf45f3347ac54a8d42b13.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
     back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/65/c6/65c60f4f7a5241b62b06e5235970a11e408fa521.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[y],hmver[1]&call=url[file:/product/main]',
-    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4a/59/4a593cd03c4ae72318487142fd9bed02999a696d.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]'
 )
 
 Top.create(
     name:'Short Top', 
     price: 12.99, 
     color:'light purple', 
-    generic_color: 'light purple', 
     category:'tops', 
     seasons: 'spring, summer, fall, winter', 
     sleeve_length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/10/fa/10fa2ce13abd7ea9894eb984cccae03aa2208ef3.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
     img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/00/8c/008cfdf45a07ce55c5d39c304a947c577949ee4c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
     back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/87/06/8706a24e8d5d9ba003d101e3db66193b90f8d00b.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
-    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/10/fa/10fa2ce13abd7ea9894eb984cccae03aa2208ef3.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]'
 )
 
 # Top.create(
 #     name:'', 
 #     price:, 
 #     color:'', 
-#     generic_color: '', 
 #     category:'tops', 
 #     seasons: '', 
 #     sleeve_length: '',
+#     live_view:'',
 #     img_url:'',
 #     back_view:'',
-#     live_view:''
 # )
 
 
@@ -118,265 +114,52 @@ p "tops seeded"
 # ---------------------------------------------BOTTOMS------------------------------------------------- #
 # ----------------------------------------------------------------------------------------------------- #
 
-
 Bottom.create(
-    name:'High Waist', 
-    price: 29.99, 
-    generic_color: 'Denim',
-    color:'Light Denim', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/97/ab/97ab4bf20403fc85309e808a4929559c5caa267b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Embrace High Ankle', 
-    price: 39.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ce/c6/cec6b97d8022b4c9b4d49cf897594c0abd71b44c.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'High Waist Denim', 
-    price: 24.99, 
-    generic_color: 'Neutral',
-    color:'Light Apricot', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c3/7e/c37efa0a819124282fd74726c8ac24730197b966.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Wide-cut Paper-bag', 
-    price: 19.99, 
-    generic_color: 'Denim',
-    color:'Light Denim', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/40/9f/409f66ed6119b1e4eb79a1cf357afc3a15da4454.jpg],origin[dam],category[ladies_jeans_straight],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Pleated', 
-    price: 29.99, 
-    generic_color: 'Pink',
-    color:'Light Pink', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5a/85/5a8529a815901094bca1999cf284fdd171c24d17.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Ankle-length Slacks', 
-    price: 14.99, 
-    generic_color: 'Plaid',
-    color:'Cream/Black Plaid', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/56/c9/56c9a894f27847b78ff6fc0bbd73ed8432350770.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'A-line Skirt', 
-    price: 24.99, 
-    generic_color: 'Neutral',
-    color:'Beige', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/46/2b/462b5909b7157407fd8188f2c39d4364f03d4d96.jpg],origin[dam],category[ladies_skirts_shortskirts],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Pima Cotton Chinos', 
-    price: 69.99, 
-    generic_color: 'Neutral',
-    color:'Light Beige', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a1/9f/a19f0bc72bb0587693092e3d753da3b728fa9ce8.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'A-line Skirt', 
-    price: 24.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c9/b0/c9b071768a26e845d67bbed8b93a6edaf08783d4.jpg],origin[dam],category[ladies_skirts_shortskirts],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Fitted Till', 
-    price: 29.99, 
-    generic_color: 'Neutral',
-    color:'Dark Beige', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7e/17/7e17fa53041122c4492c8a2840e7148cf6530845.jpg],origin[dam],category[ladies_trousers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Eyelet Embroidery', 
-    price: 49.99, 
-    generic_color: 'Neutral',
-    color:'Light Beige', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b7/51/b75153e326a045ca5927a9bb5e3ca77d12187d5b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Super Skinny High', 
-    price: 19.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7c/6e/7c6ed6bf87f52c540d8d56b591a99f62557ad928.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Wide-cut Maxi', 
-    price: 49.99, 
-    generic_color: 'Orange',
-    color:'Orange', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bf/0a/bf0ae6d383196720a33d71f1b9c6e57a615a876d.jpg],origin[dam],category[ladies_skirts_longskirts],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Wide-cut Paper-bag', 
-    price: 19.99, 
-    generic_color: 'Black',
-    color:'Black', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/45/9e/459e09730485f18eed5111b15fc880c9bcffe550.jpg],origin[dam],category[ladies_jeans_straight],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Paper-Bag', 
-    price: 29.99, 
-    generic_color: 'Green',
-    color:'Sage Green', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a1/34/a134ae98fa618d860fbc7548a59acb9e845f3afe.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Boyfriend Low Regular', 
-    price: 39.99, 
-    generic_color: 'light blue',
-    color:'Light Blue/Trashed', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0e/e3/0ee3fdfd06ab40b7f2915d1563b002ee5b914769.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Wide Leg Cropped', 
-    price: 24.99, 
-    generic_color: 'White',
-    color:'White', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4b/90/4b9000895ce036894ae90bc76a0bb5a3df02097a.jpg],origin[dam],category[ladies_jeans_straight],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Mom High Ankle', 
-    price: 29.99, 
-    generic_color: 'Gray',
-    color:'Gray', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/00/dd/00dd628e47f039865e5844ad232d0aa6034f4842.jpg],origin[dam],category[ladies_jeans_loose],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Paper-Bag', 
-    price: 29.99, 
-    generic_color: 'Pink',
-    color:'Dusty Rose', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/92/ea/92ea94312d3944babcca9bc31843d1a9bedef6a1.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Crinkled Shorts', 
+    name:'Paper-Bag Pants', 
     price: 17.99, 
-    generic_color: 'Black',
-    color:'Black', 
+    color:'black', 
     category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/cd/07/cd078c4ab6ce5ff486a371dd519a912330097a23.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer, fall, winter',  
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9c/b5/9cb5f56edc5e746edd3c6f17be54f374b25b2a48.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6f/6b/6f6bedda80300a158cd3971dc491a8a152037601.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/46/a9/46a9464b44f0fd5c5081a998b095c57f8c13f423.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
 )
 
 Bottom.create(
-    name:'Ankle-length Slacks', 
-    price: 14.99, 
-    generic_color: 'patterned',
-    color:'Steel Blue/Patterned', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/39/33/39335e0e065aeab49b1fe5bea89ed980bbb5c7e4.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Paper-bag Shorts', 
-    price: 24.99, 
-    generic_color: 'Neutral',
-    color:'Light Beige', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/df/f0/dff035aaacf8f380913b4d263a4b99a73e0b4509.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Mom High Ankle', 
-    price: 29.99, 
-    generic_color: 'Denim',
-    color:'Denim Blue', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/05/8e/058e384991c63c6877af45e2ace8b5d7a40df070.jpg],origin[dam],category[ladies_jeans_loose],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Cotton Shorts', 
-    price: 49.99, 
-    generic_color: 'White',
-    color:'Cream', 
-    category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/90/b4/90b4e27753d13e0415ac2182c411343a61e5b3a5.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]'
-)
-
-Bottom.create(
-    name:'Wrap-front Skirt', 
+    name:'Paper-Bag Pants', 
     price: 17.99, 
-    generic_color: 'Print',
-    color:'Black/Floral', 
+    color:'dark khaki green', 
     category:'bottoms', 
-    rating: 5, 
-    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/35/32/3532adafe4d079beff6b627d7c7a2c2ed3644a60.jpg],origin[dam],category[Ladies_skirts_highwaisted],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]'
+    seasons: 'spring, summer, fall, winter',  
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/56/c3/56c3118a24a36fe0b3d5390a03eb46b237003ece.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c5/7a/c57a84d8bdee5e241d2303afb2b944eb13bc8fca.jpg],origin[dam],category[ladies_trousers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/93/e0/93e085ce5bcd64de945c5940df894a185a9a8848.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Paper-Bag Pants', 
+    price: 17.99, 
+    color:'black/beige striped', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter',  
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f8/73/f873f968e1d61200f4f8b8da9f7ac1ad98d3c362.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/53/5c/535c8f4acc3f2a16910f1c6ff9485a1046d66235.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2d/83/2d83251b7fc1ad7e2f16ea13fa27e229e275c7ec.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]',
 )
 
 # Bottom.create(
 #     name:'', 
 #     price:, 
-#     generic_color: '',
 #     color:'', 
 #     category:'bottoms', 
-#     rating: 5, 
-#     img_url:''
+#     seasons: '', 
+#     length: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
 # )
 
 p "bottoms seeded"
