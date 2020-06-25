@@ -749,7 +749,7 @@ Top.create(
 #     price:, 
 #     color:'', 
 #     category:'tops', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     sleeve_length: '',
 #     live_view:'',
 #     img_url:'',
@@ -761,7 +761,7 @@ Top.create(
 #     price:, 
 #     color:'', 
 #     category:'tops', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     sleeve_length: '',
 #     live_view:'',
 #     img_url:'',
@@ -773,7 +773,7 @@ Top.create(
 #     price:, 
 #     color:'', 
 #     category:'tops', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     sleeve_length: '',
 #     live_view:'',
 #     img_url:'',
@@ -785,7 +785,7 @@ Top.create(
 #     price:, 
 #     color:'', 
 #     category:'tops', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     sleeve_length: '',
 #     live_view:'',
 #     img_url:'',
@@ -797,7 +797,7 @@ Top.create(
 #     price:, 
 #     color:'', 
 #     category:'tops', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     sleeve_length: '',
 #     live_view:'',
 #     img_url:'',
@@ -809,7 +809,7 @@ Top.create(
 #     price:, 
 #     color:'', 
 #     category:'tops', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     sleeve_length: '',
 #     live_view:'',
 #     img_url:'',
@@ -821,7 +821,7 @@ Top.create(
 #     price:, 
 #     color:'', 
 #     category:'tops', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     sleeve_length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1009,12 +1009,614 @@ Bottom.create(
 
 #  ----------------------------------------------------------------------------------------------------- #
 
+Bottom.create(
+    name:'Boyfriend Low Regular', 
+    price: 39.99, 
+    color:'light denim blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3b/00/3b00c61c8b69a5d8b25670664c10f96f32ed5d8f.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0e/e3/0ee3fdfd06ab40b7f2915d1563b002ee5b914769.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/55/40/5540d3be50ad16558e6cc34c1c25e17b726928d9.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Embrace High Ankle', 
+    price: 39.99, 
+    color:'denim blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/68/3b/683b5600083b6d142ca2862dd504bafdc0a703df.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3b/19/3b1910c6a8807ed3c099b2fc88169184f046bb0b.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/46/dd/46ddc7e411a6d91aec9610b9aa7a21daf56e6e16.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Embrace High Ankle', 
+    price: 39.99, 
+    color:'dark denim blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c5/73/c573fe6a288dd5b681ff941c61a5e8d28dba26a8.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9b/da/9bda8117c17a2bccb087e55a68f064a2538f584b.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/93/6a/936a08767b3abea66ab71bf53a5132e7271b7019.jpg],origin[dam],category[ladies_jeans_skinny_skinnyhigh],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Skinny Regular Ankle', 
+    price: 9.99, 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8a/4f/8a4f345b3b204db670046b8cf5759d7db0f0fe2c.jpg],origin[dam],category[ladies_jeans_skinny],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/47/ee/47eeda4f54d080fd08c975df78fd8720f730e72f.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ec/1b/ec1bac28b8b11b41942035f7acc6cb5b28dba195.jpg],origin[dam],category[ladies_jeans_skinny],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Super Skinny High Ankle', 
+    price: 19.99, 
+    color:'white', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/59/91/5991e15b43b488a41dfc0419ac62706895aca5e5.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/48/3a/483a4561fc82010e3ab8f4dc684c4f97967d71df.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6e/d6/6ed690b9fb538d8321e3d679afffa723de3c3dfe.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Wide-Cut Paper-bag', 
+    price: 19.99, 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/16/2f/162f38b6a9e8cfe5acf7aac9d4e72699fcde0806.jpg],origin[dam],category[ladies_jeans_straight],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/45/9e/459e09730485f18eed5111b15fc880c9bcffe550.jpg],origin[dam],category[ladies_jeans_straight],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0a/ee/0aeed306ac8ca0746f69b73cf0bb41cb97218f1d.jpg],origin[dam],category[ladies_jeans_straight],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Wide-Cut Paper-bag', 
+    price: 19.99, 
+    color:'light blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b1/f1/b1f152de9e734c127f5e63a4d076ff96b8aaae6b.jpg],origin[dam],category[ladies_jeans_straight],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/40/9f/409f66ed6119b1e4eb79a1cf357afc3a15da4454.jpg],origin[dam],category[ladies_jeans_straight],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bd/79/bd795e892b59b5921fbebb2472b812a65ba96750.jpg],origin[dam],category[ladies_jeans_straight],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+)
+
+# # ----------------------------------------------------------------------------------------------------- #
+
+Bottom.create(
+    name:'Linen Joggers', 
+    price: 34.99, 
+    color:'light beige', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ac/fd/acfd66f0bf9abee68edc281cc13148632ffb582b.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2f/1f/2f1fcb4fa49b249c06624229a5a2edcd354145cf.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/10/0e/100e6e13371953b3203b3bfc1b711cb890338205.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Linen Joggers', 
+    price: 34.99, 
+    color:'khaki green', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c9/5b/c95ba67e3bba87286fff8efccfd4b61846318cb6.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8e/2c/8e2cd18a7f038cdbce83cebfba5e82c4129fa5ba.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ce/ee/ceeea28252d4d4392f95d21a9eb4e0c813a40eae.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Linen Joggers', 
+    price: 34.99, 
+    color:'dark blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e0/91/e09156f5a68b65fa11500f37f8845a404a31584e.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0b/5b/0b5b14bd804f7aefbb1863fcc798c5ec4949ce48.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c1/10/c110bda0b5fe217f9ee91a0b0a55d59e2b60ff9f.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Linen Joggers', 
+    price: 34.99, 
+    color:'light beige striped', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ad/3f/ad3f29ad1e7e33b890adea1018cf0a8c295b2fd6.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/74/3b/743b3f4e83fc9da8196d296475595bf8f9ff25b4.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0b/e3/0be398805e202aae19cb017900f0a134b70fc41d.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Linen Joggers', 
+    price: 34.99, 
+    color:'white', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d7/c1/d7c18f0628f19554ae19236fa3328f8b11a68bea.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/64/09/6409b3d99774042e5c02d5c81ef29459df4ef250.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b9/ae/b9aed326551ec24c03fecf0308885e67ac487a0e.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Cashmere-Blend Joggers', 
+    price: 59.99, 
+    color:'light pink', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d9/06/d906e099b3bf05a2c8a80fa3ab139b00e5c35241.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bd/f8/bdf8a8e2f34fbf7aa27124fdfea034d4c7abc8e0.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/47/5b/475bef20ed98c6b82e6215186dd17131b7e2495f.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Cashmere-Blend Joggers', 
+    price: 59.99, 
+    color:'gray', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'pants',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/60/9d/609d8f42c6fa95e6dfae25d6ca9918913b34f13e.jpg],origin[dam],category[ladies_trousers_joggers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/cd/ac/cdac094a4a3074f9a942fb16b7e85c74254c290a.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/14/c3/14c35592ba7dad915085ec45cc1acaba5eb731d1.jpg],origin[dam],category[ladies_trousers_joggers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Bottom.create(
+    name:'Patterned Skirt', 
+    price: 34.99, 
+    color:'light beige floral print', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c1/3b/c13bf1812f1c3aed04c1ae2db419e6cebaecf5e4.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f7/78/f778c8f091ddcfb3eb9e86617f8095c716f26d0c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a5/65/a5653a4434ad6e031dd54f94fa9d82ba57b4be56.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Pleated Skirt', 
+    price: 29.99, 
+    color:'light pink', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9d/b4/9db403bd168b79ea7f1a0c9313786e8ba3b22514.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5a/85/5a8529a815901094bca1999cf284fdd171c24d17.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/eb/cd/ebcd3d66c36b46f928b66a663a23c11a61b808e2.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Eyelet Embroidery Skirt', 
+    price: 49.99, 
+    color:'light beige', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/88/70/88700cfd7b04fc4a500d1622f0583437fa4b4f4a.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b7/51/b75153e326a045ca5927a9bb5e3ca77d12187d5b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f9/ad/f9ad28eead2fcd71982e8f405e3c3bdca4e3b5d1.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Pleated Skirt', 
+    price: 39.99, 
+    color:'dark blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/41/91/4191816c1b3557fa2c546dcdfc5b95dd15a0e5a6.jpg],origin[dam],category[ladies_skirts_midiskirts],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fd/11/fd117fb6509987ac5fa85b5a783cb2f59d3a5ecb.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/11/c2/11c24820ce6d4eccbdf91a20fd297ac13079eee3.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Pleated Skirt', 
+    price: 39.99, 
+    color:'cream floral printed', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dd/95/dd95349f8c66aa66d3748b7fa81d68cab0b7594f.jpg],origin[dam],category[ladies_skirts_midiskirts],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c9/21/c921b122342dc2f99c99f5cef63e839d1416008b.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5c/cd/5ccda68ca9f8469f6a9d92daf7075801073e8f23.jpg],origin[dam],category[ladies_skirts_midiskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Pleated Skirt', 
+    price: 39.99, 
+    color:'light pink', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c0/5a/c05a4b40c303d0c2c452faedd6ec8f4b53cccab5.jpg],origin[dam],category[ladies_skirts_midiskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6f/b1/6fb18708e3ee05f7ab68b6bd9bd453835faeb2a1.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/54/a2/54a2e05bb510ee297b0725bc8de188924d43f99b.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Pleated Skirt', 
+    price: 39.99, 
+    color:'light beige', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/12/cc/12cc0abba48deb115ec557f165642c84d185fc1d.jpg],origin[dam],category[ladies_skirts_midiskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c3/bb/c3bb9566c8498e8843d7f33a5e4636a65c7f2088.jpg],origin[dam],category[ladies_skirts_midiskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c2/bb/c2bbaa979e67d9118e0a5d3a54ddb4c8ac7e869c.jpg],origin[dam],category[ladies_skirts_midiskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Bottom.create(
+    name:'Linen-Blend Skirt', 
+    price:34.99, 
+    color:'light beige printed', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6b/58/6b580e19c61dcd64b7100582052c56751bf8c623.jpg],origin[dam],category[Ladies_skirts_a-line],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/84/f3/84f33d1b2b6baf3c0e7ce4865b5f26570bae7aa1.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a4/db/a4db4f3639e9d704576b1c53e2ffcc61af88a6c3.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[m],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Linen-Blend Skirt', 
+    price:34.99, 
+    color:'light beige black printed', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2a/b8/2ab8101aecc53b6751e344e998cfa7df9e408eaa.jpg],origin[dam],category[Ladies_skirts_a-line],type[ENVIRONMENT],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7b/8c/7b8cba02fe553cab23e724560d167fec02783a66.jpg],origin[dam],category[Ladies_skirts_a-line],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d2/4f/d24f0d7c01b21dcdcbc5e14af18079bfb202a363.jpg],origin[dam],category[Ladies_skirts_a-line],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Tie Belt Skirt', 
+    price: 39.99, 
+    color:'cream black striped', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall', 
+    length: 'calf length',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/76/8e/768e5586a268fe5f2ed4a8167721912681d05056.jpg],origin[dam],category[Ladies_skirts_a-line],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/43/ae/43ae876ba7dc80435aec8d8768598386b6b0e871.jpg],origin[dam],category[Ladies_skirts_a-line],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1f/c1/1fc1ccd04f4fec4aa6fc04ab4bf19eed6505089c.jpg],origin[dam],category[Ladies_skirts_a-line],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Skater Skirt', 
+    price: 17.99, 
+    color:'black white dotted', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall', 
+    length: 'mini',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4e/40/4e40bebd61893bdbad6dabd4c17b2d2a12c42b07.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9c/66/9c66f3c36ab025c31c901f9f34769557abf8e503.jpg],origin[dam],category[ladies_skirts_shortskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/98/0b/980b6ad67b35a63268889bae98da159884bd7f37.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Skater Skirt', 
+    price: 17.99, 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'mini',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/50/f6/50f687763be498c5cdd5a17679d763e3afec35b3.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/23/7e/237e7680b2f713b360899f12304e5bbab241f7c4.jpg],origin[dam],category[ladies_skirts_shortskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/92/0b/920bba7865a1ac5bf92a8926df8d8111c9cff801.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Skater Skirt', 
+    price: 17.99, 
+    color:'black floral printed', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall', 
+    length: 'mini',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/58/71/5871c460695a32be87135c0d213695ba3df6b726.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/45/60/456026c2fc7a029e370bb79aa48c2cc612e53520.jpg],origin[dam],category[ladies_skirts_shortskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4e/0e/4e0ef4d5d0b745c1f11003a6bae2940c93f8ad6b.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'A-Line Skirt', 
+    price: 17.99, 
+    color:'yellow floral printed', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'mini',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e2/06/e2069b09127ee5b11d3d25aec04b82a60d55f7c0.jpg],origin[dam],category[Ladies_skirts_a-line],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ea/04/ea04100ffaf3ba141390a25d28d6f26851fabbee.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/41/b1/41b15464cdd1cbd57cd37fe85d74b24c3101c32d.jpg],origin[dam],category[Ladies_skirts_a-line],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Bottom.create(
+    name:'A-Line Skirt', 
+    price: 17.99, 
+    color:'black floral printed', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'mini',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a0/e5/a0e5d49d33c1b488ad186be466b0936b22bcb158.jpg],origin[dam],category[Ladies_skirts_a-line],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/19/e8/19e83292afadccb98f688cd1eb88966d5f969df3.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ef/65/ef65aa39c8931ec07b75fdb73018e839465a9119.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'High Waist Shorts', 
+    price: 17.99, 
+    color:'blue denim', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/46/af/46afdefcd2ecc2f13382963431d475087fca70ce.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/31/90/31906aca8f35352908f5f04b58b6eceeae35f29b.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/49/84/49845aa6325fc3bdf30e586c4b6b9d0562611748.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'High Waist Shorts', 
+    price: 17.99, 
+    color:'dark blue denim', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/62/2c/622cff600e5e4cbbefbf8b5ac4138fd6c2736ca5.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/50/f7/50f717880805391449da9a477659ecbde98a3a54.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b4/d1/b4d134b681d69d395f8e1271796831dc73c7f537.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'High Waist Shorts', 
+    price: 17.99, 
+    color:'dark denim gray denim', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/50/41/5041985773a48e24c0f5b421a0d2d3aa8e99adb1.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a2/0b/a20b3d56e4853e4f8e711beebc3fa7824912613f.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/49/e9/49e9f013eb0308c82242419f9a48e096c9c0061a.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'High Waist Shorts', 
+    price: 17.99, 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0c/f9/0cf922a94d060a1312245979a12961b1f632ff80.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0e/d4/0ed4f3cdda5f5b530969a51db2a094730adf7b1d.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0a/39/0a39cd528fb2cb43008e145c31c06ae580df13be.jpg],origin[dam],category[Ladies_shorts_highwaisted],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'High Waist Shorts', 
+    price: 29.99, 
+    color:'light blue denim', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/41/aa417c4f73246f11a6b1b70e6f39495ed919be2a.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/97/ab/97ab4bf20403fc85309e808a4929559c5caa267b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8b/f4/8bf4bddf6f25b9ee3df29ceebd456ce319a3deb1.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'High Waist Shorts', 
+    price: 24.99, 
+    color:'denim blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/79/ec/79ec0146ee687878dda8eed74f998ace0c5c5b79.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f1/58/f158bfd302bebab1cce29ad34ceef5826223c914.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/db/3d/db3dd51b9fa97cc10762e3afd58b9204338af881.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Bottom.create(
+    name:'High Waist Shorts', 
+    price: 24.99, 
+    color:'light denim blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e6/36/e636d087c1eb50370eae82239793cbf7eb53578d.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8e/1b/8e1b4d0edb1aad9a4115a42aeff8d7f00f6b7157.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9a/b4/9ab46b0f7148df540a640012338633a780cd7db4.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    price: 14.99, 
+    color:'beige', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c7/a5/c7a5b78ad0bdbc1dcf19e78ac6a46193d3096470.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fc/d5/fcd574cef38365850100e79e5691cb5810a506c6.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fd/51/fd5107da4bac635811156123b95a4165fdc5ed74.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    price: 14.99, 
+    color:'stell blue printed', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2e/ae/2eae136489cb8dd4aae2838333a24ce4bb637873.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/39/33/39335e0e065aeab49b1fe5bea89ed980bbb5c7e4.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/32/e9/32e937234e86581e7b2d7c43422df19211e0b231.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    price: 14.99, 
+    color:'cream black plaid', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/b9/aab98e41a3601feb4878efaa91a47702aefe9646.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/56/c9/56c9a894f27847b78ff6fc0bbd73ed8432350770.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e6/4b/e64b8edc78e9b3b5e302406ae2909eabd073f219.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    price: 14.99, 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/41/f8/41f8d64396e29fe02cb4d14d3e1d26004c9914de.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7a/3c/7a3c96f09b8887c7ee286361982fe4cda6e12f0f.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/06/70/067061f7aa46776206740e4c16694da58ca99a69.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    price: 14.99, 
+    color:'dark blue', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1b/38/1b38034b75013df1e4e96166d91084a2f1e740be.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/66/1a/661a92f1fa775ee20cba1af3487d525ca43b9560.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ad/5c/ad5c2faf647d530215a1f6606abca6015302160b.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Fitted Twill Pants', 
+    price: 29.99, 
+    color:'cream', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a9/5d/a95da191b8e3f0b8eae8ef151fd3b238fa34a500.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ec/06/ec064c300dfa8bbca0214ba75d2af721c0b41442.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/67/61/676173c98cbd0bde4bdad7d38e75a68e5eaf06e7.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Bottom.create(
+    name:'Fitted Twill Pants', 
+    price: 29.99, 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b4/a1/b4a1e7b2433c1ba6aa30942b601445d21fed281f.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e4/a9/e4a925311b8a8a4872dddaba26614e292a9082c9.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/36/73/36733f7838526a0ca681eba94baa4bb9a347324f.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Fitted Twill Pants', 
+    price: 29.99, 
+    color:'dark beige', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0f/d3/0fd34f16957505de793ca5e608efa3e5629a08f0.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7e/17/7e17fa53041122c4492c8a2840e7148cf6530845.jpg],origin[dam],category[ladies_trousers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e9/44/e944e9d9b474c05403235a66334b16976016c9f9.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Wide-Cut Pants', 
+    price: 17.99, 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/09/28/0928e0792809f17a0f31905fc844cd97895c82aa.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ec/60/ec6015a24a8548bddd1c895e714251a061216a20.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3d/f0/3df041617d2bb57bc34d72c65383df0b7cee0d6a.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Wide-Cut Pants', 
+    price: 17.99, 
+    color:'light beige', 
+    category:'bottoms', 
+    seasons: 'spring, summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5f/68/5f68ffcf74105804a4ce8f2885e61c33be0c6d76.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ad/71/ad717715748563ea17eec305c9cb122979ebe86f.jpg],origin[dam],category[ladies_trousers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e9/b6/e9b635acf05074cbba43ecab35b9ddd25f35828e.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Wide-Cut Pants', 
+    price: 17.99, 
+    color:'black white striped', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2c/be/2cbe1443ba7f738887f54842ae4ca9ccd27cb1ad.jpg],origin[dam],category[ladies_trousers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6e/09/6e09296a3c6592b2911cfdc9f0254466eafc402d.jpg],origin[dam],category[ladies_trousers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6c/6a/6c6a8ecdd71a4ec1d7e219ed55b2ba920c46b3ef.jpg],origin[dam],category[ladies_trousers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Slacks', 
+    price: 29.99, 
+    color:'light gray', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/95/17/9517371cd4bd802a144d30699cb192827d36b680.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ec/40/ec403c62d32ee06d29c8420ae606bb7168735f05.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/54/73/5473d55f5be048c47ebbebab9b7951a7e33633fe.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    price: 14.99, 
+    color:'white', 
+    category:'bottoms', 
+    seasons: 'spring, summer, fall, winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/f2/aaf22755088f1fa210de4641ee331cf263afd42e.jpg],origin[dam],category[ladies_trousers_slim],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b2/56/b256c018bebc11c3e6dafc055a51588b3ce15c50.jpg],origin[dam],category[ladies_trousers_slim],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ae/2e/ae2e8dde4aaefca5e0415c3e14595fe33140bdf3.jpg],origin[dam],category[ladies_trousers_slim],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
 # Bottom.create(
 #     name:'', 
 #     price:, 
 #     color:'', 
 #     category:'bottoms', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1026,7 +1628,7 @@ Bottom.create(
 #     price:, 
 #     color:'', 
 #     category:'bottoms', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1038,7 +1640,7 @@ Bottom.create(
 #     price:, 
 #     color:'', 
 #     category:'bottoms', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1050,7 +1652,7 @@ Bottom.create(
 #     price:, 
 #     color:'', 
 #     category:'bottoms', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1062,7 +1664,7 @@ Bottom.create(
 #     price:, 
 #     color:'', 
 #     category:'bottoms', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1074,7 +1676,7 @@ Bottom.create(
 #     price:, 
 #     color:'', 
 #     category:'bottoms', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1086,7 +1688,7 @@ Bottom.create(
 #     price:, 
 #     color:'', 
 #     category:'bottoms', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
 #     length: '',
 #     live_view:'',
 #     img_url:'',
@@ -1095,177 +1697,6 @@ Bottom.create(
 
 # # ----------------------------------------------------------------------------------------------------- #
 
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# # ----------------------------------------------------------------------------------------------------- #
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Bottom.create(
-#     name:'', 
-#     price:, 
-#     color:'', 
-#     category:'bottoms', 
-#     seasons: '', 
-#     length: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# # ----------------------------------------------------------------------------------------------------- #
 
 p "bottoms seeded"
 
@@ -1278,7 +1709,7 @@ Shoe.create(
     price: 29.99, 
     color:'white', 
     category:'shoes', 
-    seasons: 'spring, summer, fall, winter',  
+    seasons: 'spring, summer, fall, winter', 
     shoe_type: 'sneakers',
     live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a6/01/a60163ae2425809d65a601e17f3945c6d242c942.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[1]&call=url[file:/product/main]',
     img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/44/58/4458e66b20f9d6cec167d6ff6ff72e6234ca6d47.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
@@ -1309,17 +1740,657 @@ Shoe.create(
     back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c1/2c/c12c098ca6e6316dc3c1e182c449694eb1c08d68.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[y],hmver[1]&call=url[file:/product/main]',
 )
 
+Shoe.create(
+    name:'Sneakers', 
+    price: 19.99, 
+    color:'red', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4f/02/4f0216e82e8d8c843fd480568187dfe79f3d1ebb.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dd/a2/dda20158d92561cf752c4aef210e3ba6545285c6.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/07/ad/07ad0505cd8e1b3954350ed8bf37c0d072745f1d.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Sneakers', 
+    price: 19.99, 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b6/45/b64579aeebe81f8dc96c106c043cc6420d412908.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dd/09/dd0919c92f43ed38a27c42fab446d9ef1126f9a5.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/62/b4/62b4bbde4a467f9abb23d0fc73afa0fc695e3fad.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Sneakers', 
+    price: 24.99, 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e4/90/e49042f3534e28135b124530c2bbb21080186a04.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7e/f5/7ef56dff1ec371fb0927d591e664403176003f1b.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/03/5e/035ef8b07ff066a4f3a87ccc0d15bab9c95cfadd.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Canvas Sneakers', 
+    price: 12.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b5/ff/b5ff1a65323d477d9dce61c0b3bb95de192b71f1.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6d/6c/6d6c6bb3880215b74fd9d4a7d7f838b792a9c106.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/20/32/2032707c641d0861311f6c1fb7c8c755782fdc84.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Sneakers', 
+    price: 29.99, 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2b/aa/2baa8c4227f6148524782e984e204caa0401c141.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9c/d1/9cd1fc2fc1a70bc17677c35f4bf0a76b7c81a815.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/cc/cf/cccf969b96456ab8f34a5c46e9c6cc7c4556207c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Platform Sneakers', 
+    price: 34.99, 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/56/aa5660d3ec83256a4657d1fd83cde294aa65630b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/87/69/8769fa29e9d414f3147c00997784b176990f7521.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/05/bd/05bd3f885728eeae6776280d54e0cd11f28f8c72.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Fully-Fashioned Sneakers', 
+    price: 29.99, 
+    color:'taupe', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/20/1f/201f9c595b62397cc2d70aea18bce7dc8d842d65.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/22/5c/225cc353afb7e361ead88833b036dfeb6eb817dc.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b4/bd/b4bd55ed4696f9c76a276344f9c07f115d88cc0a.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Sneakers', 
+    price: 29.99, 
+    color:'beige snakeskin printed', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e8/7a/e87a09cf816f3c7957d5500f1ecbcecd97163d4a.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/da/0a/da0a36dea0957762500300850a858934f397b3be.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/01/84/0184fe2bb9207f8911273b711a2a76c117638871.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Fully-Fashioned Sneakers', 
+    price: 29.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6b/ec/6bec9a536bdcd6cc1e7c2c8697c6affd07cd27bb.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/14/33/143316866fbbe42a900b6a8a0499219321c1bf0d.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/15/13/1513fffba57a92ddba565004b7534a70208bb1cf.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Chunky-Soled Sneakers', 
+    price: 39.99, 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9a/03/9a03ceb8e9e24a1dac5ab5533516c56cb8c6ae7f.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3a/bf/3abfea54d7e9b5915c17c7c0e0ffe8f56fd4c618.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/87/87/87877af368ace7c8afcffd406d488b04c6237b48.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Mesh Sneakers', 
+    price: 39.99, 
+    color:'white neon pink', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a4/20/a4207055f60c98ff2c91c59dcf4ab1112d573f65.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f9/b5/f9b5470f5b2b0ae2209ab80453d9b3dfbf882f44.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4e/66/4e6691ad590c7fceab65e8e07b8c97f8e3909ce2.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Mesh Sneakers', 
+    price: 39.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/33/fc/33fc89d2a43c695f751a34fcd9f324f30454b1a6.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/87/95/87951b48c887e8ec4853ca149281a766017fcd46.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/10/4a/104a61d1eeff02a1d43bc7b326519b2a5ef28790.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Chelsea Boots', 
+    price: 34.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'fall, winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f0/fa/f0fa2348811a1b4cb52af86ea56ca803529250cf.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d2/4a/d24ae5f984968536621547c708fabdd437326cfa.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/44/e9/44e97f42de88d50146eb5937b306248d0c6f8eca.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Canvas Boots', 
+    price: 34.99, 
+    color:'beige', 
+    category:'shoes', 
+    seasons: 'fall, winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/93/e4/93e4b99051e93923c3b593a70e7de4855f7f526a.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/14/96/1496340aa44b4373a9c189070007e58367af8cb5.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6a/50/6a502aac8fc33a03c92e6b5cde4adda163a89941.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Block-Heeled Ankle Boots', 
+    price: 49.99, 
+    color:'taupe', 
+    category:'shoes', 
+    seasons: 'fall, winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f4/ed/f4ed85381e3cabb35c673cd829ea336ac7645321.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0c/90/0c900c459b216564c205cae2b69f9b8bb00d50c2.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1f/ae/1fae42f917bf0da667ef041920f856a402961aaa.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Block-Heeled Ankle Boots', 
+    price: 49.99, 
+    color:'brown snakeskin printed', 
+    category:'shoes', 
+    seasons: 'fall, winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/77/4d/774d4435638eb3ab7273af635e006eb2a4d13278.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/56/1b/561bf29b896cfcabfe7b81747e92db24d1d4e4b5.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fd/9c/fd9c19191f08d21b15e5ab92d7a2ae29c8a7886a.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Warm-Lined Boots', 
+    price: 49.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'fall, winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7f/fc/7ffc7e5c93296e3587c2742086e94d3b4c3b7b8e.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8a/50/8a50cc4773ee7946c3c2f70e603769c0eccb0a31.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6f/9c/6f9c26d56a28e43c2cb76be2d78b33611f06a573.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Ankle Boots', 
+    price: 54.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'fall, winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/27/c0/27c0c39f85e035000ea1e9d766252f5ec0fc444c.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/cb/9c/cb9c46190c048ead286c94214eeb199e8468b297.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fd/67/fd67bccf35f1a615c62d9b2cfd1b39aaa2303816.jpg],origin[dam],category[ladies_shoes_ankle_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Loafers', 
+    price: 34.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'loafers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4d/26/4d26faf0f03dc325d2a22450ada5f405df032f65.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1a/71/1a71704eb6b9400d84e74f60cabce6cd012bac03.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b0/ed/b0ed7c8e4b63b5379755595a4eb664307183dd57.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Loafers', 
+    price: 29.99, 
+    color:'dark brown crocadile printed', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'loafers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/91/97/919762d949ca9f8aaa640061a68959e784e7846e.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/25/41/254154774b392831c57daf29856a522d4e010b16.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/97/2e/972e5caa9761a11c43fbcd333f400cd4b1d1a8b2.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Loafers', 
+    price: 29.99, 
+    color:'dark beige', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'loafers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3c/b5/3cb571c10dbe33530da125ce6286f4100ead6d31.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dd/34/dd343838aff31423c8e7d54ef47d68642a4971e8.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fb/6b/fb6b40325ce922259a47b5de876da489b939f6c8.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Loafers', 
+    price: 29.99, 
+    color:'dark beige', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'loafers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9a/9b/9a9b0462cf754472c3d76a40787523a24d022abb.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/48/80/48802f413a18961905555bf93bc3dd5bd9e8eedc.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ed/ae/edaee645f2c0358c3370c4940f8ad3f307b7ff7d.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Tasseled Loafers', 
+    price: 24.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'loafers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bc/84/bc84aa68b932fab84819257a44a5d24e063130c3.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/40/5f/405f4da9232cffe4c93ea24676ed2985f6609329.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/29/ac/29ac7e1465abf1904697a3378c8229ddfdfe31b9.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Loafers', 
+    price: 14.99, 
+    color:'beige snakeskin patterned', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'loafers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ee/73/ee7375bb5239459ede91d6dd6a2c900ab0e584b7.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d5/ac/d5acee1098f8f9436af56c0cd0decf3837274ca5.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c9/52/c9528d8d1fdedf31afa8e4cca07c9d94a12c0cc4.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Loafers', 
+    price: 14.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'loafers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2a/06/2a06527175090dfb04995f2c782ae3d37f82a38f.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a0/5f/a05ff46048e8d67c5f94901a6b2c6c26b0c09112.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVESTILLLIFE],res[m],hmver[4]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fb/ba/fbbaf2cda68b23dcf74ce5207e0e556d1bf359a1.jpg],origin[dam],category[ladies_shoes_ballerinas_flats],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Heels', 
+    price: 34.99, 
+    color:'beige', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall', 
+    shoe_type: 'heels',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/44/2f/442ffa55b66f9b1177998dacecd2af4ea3cd50b0.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/88/4a/884a98f2df722ae75f372d1ca0d69b6bdc414fea.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bb/7b/bb7b1795eaeca157369ef6d02514fc351c194baf.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Heels', 
+    price: 34.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer, fall', 
+    shoe_type: 'heels',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/80/84/80843808116176b2f35c301c773cac12d60376d9.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e4/c1/e4c1f15db6784118d087aef1a082de6bab272045.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c3/30/c3301334d8db93d5ed13c017870728477a4d65d0.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Suede Heels', 
+    price: 34.99, 
+    color:'powder pink', 
+    category:'shoes',  
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'heels',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f4/56/f45609260783e9244d456e10341a4eed4f8b8f4d.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e3/e0/e3e042e5b06a75e9abc8b604478f250b5f4b1c0a.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d5/19/d5191fc74a6de20c0fe4f45df5573fe74f0c6133.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVEDETAIL],res[s],hmver[2]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Suede Heels', 
+    price: 34.99, 
+    color:'black', 
+    category:'shoes',  
+    seasons: 'spring, summer, fall, winter', 
+    shoe_type: 'heels',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a9/e3/a9e36958dc5654a736d231a92ac4db5c7a017651.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a9/47/a9476bd348b4309cb7817b9df43ce59e5936d5f9.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/43/5e/435e38c75da8367047ac511e69a5e99fd0531c69.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Block-Heels', 
+    price: 24.99, 
+    color:'light beige', 
+    category:'shoes', 
+    seasons: 'spring, summer', 
+    shoe_type: 'heels',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b8/60/b86056aebf1f2d1f9eeb0280ffcf9ab36b53a6d9.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1d/de/1dde080a5182330469915373750d3bf1a29ae1ea.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9a/55/9a559c103ef630e47ca76eac7d7d83573ea7c025.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Block-Heels', 
+    price: 24.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer', 
+    shoe_type: 'heels',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b8/b0/b8b0bdd559c518cd6eb94f54d22f2d6504cb7ef9.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/66/b5/66b5657ce7e8aa63d74d717927988e3328f458f8.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e1/28/e12879f9c1a3a050acd75ad3ab87511056b01354.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Block-Heels', 
+    price: 17.99, 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring, summer', 
+    shoe_type: 'heels',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/dc/7a/dc7af088f1aa5eceee49ff7751fdc6ad7fc62263.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d0/a9/d0a9586a941209ed3d189ba0e36705531e09052a.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a9/30/a930bc94fabf356b1e050c7ff2c04e680c7e4710.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
 # Shoe.create(
 #     name:'', 
 #     price:, 
 #     color:'', 
 #     category:'shoes', 
-#     seasons: '', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+    # live_view:'',
+    # img_url:'',
+    # back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
 #     shoe_type: '',
 #     live_view:'',
 #     img_url:'',
 #     back_view:'',
 # )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# ----------------------------------------------------------------------------------------------------- #
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# ----------------------------------------------------------------------------------------------------- #
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# Shoe.create(
+#     name:'', 
+#     price:, 
+#     color:'', 
+#     category:'shoes', 
+#     seasons: 'spring, summer, fall, winter', 
+#     shoe_type: '',
+#     live_view:'',
+#     img_url:'',
+#     back_view:'',
+# )
+
+# ----------------------------------------------------------------------------------------------------- #
 
 
 p "shoes seeded"
