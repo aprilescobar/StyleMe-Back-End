@@ -1,4 +1,4 @@
-p "seeding..."
+p "seeding... :)"
 
 User.create(
     name:'Poppy', 
