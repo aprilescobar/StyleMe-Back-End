@@ -83,7 +83,7 @@ Top.create(
 Top.create(
     name:'Short Top', 
     price: 12.99, 
-    color:'light purple', 
+    color:'purple', 
     category:'tops', 
     seasons: 'spring summer fall winter', 
     sleeve_length: 'short',
@@ -119,7 +119,7 @@ Top.create(
 Top.create(
     name:'Round-Neck T-shirt', 
     price: 9.99, 
-    color:'apricot pink', 
+    color:'apricot', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'short',
@@ -131,7 +131,7 @@ Top.create(
 Top.create(
     name:'Round-Neck T-shirt', 
     price: 9.99, 
-    color:'dark blue', 
+    color:'blue', 
     category:'tops', 
     seasons: 'spring summer fall winter', 
     sleeve_length: 'short',
@@ -145,7 +145,7 @@ Top.create(
 Top.create(
     name:'Cropped Top', 
     price: 5.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'tops', 
     seasons: 'spring summer fall', 
     sleeve_length: 'sleeveless',
@@ -181,7 +181,7 @@ Top.create(
 Top.create(
     name:'Crinkled Smock Top', 
     price: 14.99, 
-    color:'bright pink', 
+    color:'pink', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'sleeveless',
@@ -217,7 +217,7 @@ Top.create(
 Top.create(
     name:'Jersey Top', 
     price: 2.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'strapless',
@@ -231,7 +231,7 @@ Top.create(
 Top.create(
     name:'Smocked Off-the-Shoulder', 
     price: 29.99, 
-    color:'light beige floral', 
+    color:'beige floral', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'long',
@@ -243,7 +243,7 @@ Top.create(
 Top.create(
     name:'Puff-Sleeved Blouse', 
     price: 19.99, 
-    color:'light yellow', 
+    color:'yellow', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: '3/4',
@@ -317,7 +317,7 @@ Top.create(
 Top.create(
     name:'Off-The-Shoulder Top', 
     price: 17.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: '3/4',
@@ -341,7 +341,7 @@ Top.create(
 Top.create(
     name:'Balloon-Sleeved Top', 
     price: 14.99, 
-    color:'black white dotted', 
+    color:'black dotted', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: '3/4',
@@ -365,7 +365,7 @@ Top.create(
 Top.create(
     name:'Smocked Off-The-Shoulder', 
     price: 9.99, 
-    color:'powder pink floral', 
+    color:'pink floral', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: '3/4',
@@ -377,7 +377,7 @@ Top.create(
 Top.create(
     name:'Smocked Off-The-Shoulder', 
     price: 9.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: '3/4',
@@ -415,7 +415,7 @@ Top.create(
 Top.create(
     name:'V-neck Top', 
     price: 12.99, 
-    color:'dark blue', 
+    color:'blue', 
     category:'tops', 
     seasons: 'fall winter', 
     sleeve_length: 'short',
@@ -427,7 +427,7 @@ Top.create(
 Top.create(
     name:'Short Cotton Top', 
     price: 9.99, 
-    color:'white printed', 
+    color:'green floral', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: '3/4',
@@ -439,7 +439,7 @@ Top.create(
 Top.create(
     name:'Buttoned V-neck Camisole Top', 
     price: 24.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'tops', 
     seasons: 'spring summer fall', 
     sleeve_length: 'sleeveless',
@@ -451,7 +451,7 @@ Top.create(
 Top.create(
     name:'Cotton Shirt', 
     price: 17.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'long',
@@ -463,7 +463,7 @@ Top.create(
 Top.create(
     name:'Cotton Shirt', 
     price: 17.99, 
-    color:'cream white', 
+    color:'yellow', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'long',
@@ -475,7 +475,7 @@ Top.create(
 Top.create(
     name:'Cotton Shirt', 
     price: 17.99, 
-    color:'light green', 
+    color:'green', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'long',
@@ -489,7 +489,7 @@ Top.create(
 Top.create(
     name:'Oversized Sweatshirt', 
     price: 17.99, 
-    color:'light gray', 
+    color:'gray', 
     category:'tops', 
     seasons: 'spring fall winter', 
     sleeve_length: 'long',
@@ -501,7 +501,7 @@ Top.create(
 Top.create(
     name:'Cotton-Blend Sweatshirt', 
     price: 9.99, 
-    color:'white printed', 
+    color:'white', 
     category:'tops', 
     seasons: 'spring fall winter', 
     sleeve_length: 'long',
@@ -513,7 +513,7 @@ Top.create(
 Top.create(
     name:'Cotton-Blend Sweatshirt', 
     price: 9.99, 
-    color:'light purple', 
+    color:'purple', 
     category:'tops', 
     seasons: 'spring fall winter', 
     sleeve_length: 'long',
@@ -525,7 +525,7 @@ Top.create(
 Top.create(
     name:'Cropped Hoodie', 
     price: 24.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'tops', 
     seasons: 'spring summer fall winter', 
     sleeve_length: 'long',
@@ -561,7 +561,7 @@ Top.create(
 Top.create(
     name:'Sweatshirt', 
     price: 17.99, 
-    color:'khaki green', 
+    color:'khaki', 
     category:'tops', 
     seasons: 'spring summer fall winter', 
     sleeve_length: 'long',
@@ -575,7 +575,7 @@ Top.create(
 Top.create(
     name:'Sweatshirt', 
     price: 17.99, 
-    color:'pale blue', 
+    color:'blue', 
     category:'tops', 
     seasons: 'spring summer fall winter', 
     sleeve_length: 'long',
@@ -611,7 +611,7 @@ Top.create(
 Top.create(
     name:'Sweatshirt', 
     price:9.99, 
-    color:'light gray', 
+    color:'gray', 
     category:'tops', 
     seasons: 'spring fall winter', 
     sleeve_length: 'long',
@@ -623,7 +623,7 @@ Top.create(
 Top.create(
     name:'V-neck Blouse', 
     price: 24.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'tops', 
     seasons: 'spring summer fall', 
     sleeve_length: 'short',
@@ -635,7 +635,7 @@ Top.create(
 Top.create(
     name:'V-neck Blouse', 
     price: 24.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'tops', 
     seasons: 'spring summer fall', 
     sleeve_length: 'short',
@@ -661,7 +661,7 @@ Top.create(
 Top.create(
     name:'Tie-Hem Blouse', 
     price: 24.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'tops', 
     seasons: 'spring summer fall', 
     sleeve_length: 'long',
@@ -673,7 +673,7 @@ Top.create(
 Top.create(
     name:'Tie-Hem Blouse', 
     price: 24.99, 
-    color:'powder pink', 
+    color:'pink', 
     category:'tops', 
     seasons: 'spring summer fall', 
     sleeve_length: 'long',
@@ -697,7 +697,7 @@ Top.create(
 Top.create(
     name:'Linen-blend Tie-hem Blouse', 
     price:24.99, 
-    color:'white printed', 
+    color:'white floral', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: '3/4',
@@ -709,7 +709,7 @@ Top.create(
 Top.create(
     name:'Off-The-Shoulder Blouse', 
     price: 24.99, 
-    color:'black floral printed', 
+    color:'black floral', 
     category:'tops', 
     seasons: 'spring summer', 
     sleeve_length: 'long',
@@ -851,7 +851,7 @@ Bottom.create(
 Bottom.create(
     name:'Paper-Bag Pants', 
     price: 17.99, 
-    color:'dark khaki green', 
+    color:'khaki', 
     category:'bottoms', 
     seasons: 'spring summer fall winter',  
     length: 'pants',
@@ -864,7 +864,7 @@ Bottom.create(
 Bottom.create(
     name:'Paper-Bag Pants', 
     price: 17.99, 
-    color:'dark beige', 
+    color:'khaki', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'pants',
@@ -876,7 +876,7 @@ Bottom.create(
 Bottom.create(
     name:'Paper-Bag Pants', 
     price: 17.99, 
-    color:'black/beige striped', 
+    color:'black striped', 
     category:'bottoms', 
     seasons: 'spring summer fall winter',  
     length: 'pants',
@@ -888,7 +888,7 @@ Bottom.create(
 Bottom.create(
     name:'Tie-Belt Shorts', 
     price: 24.99, 
-    color:'white printed', 
+    color:'green floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'shorts',
@@ -900,7 +900,7 @@ Bottom.create(
 Bottom.create(
     name:'Tie-Belt Shorts', 
     price: 24.99, 
-    color:'khaki green', 
+    color:'green', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'shorts',
@@ -912,7 +912,7 @@ Bottom.create(
 Bottom.create(
     name:'Tie-Belt Shorts', 
     price: 24.99, 
-    color:'green white floral print', 
+    color:'green floral', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'shorts',
@@ -938,7 +938,7 @@ Bottom.create(
 Bottom.create(
     name:'Tie-Belt Shorts', 
     price: 24.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'shorts',
@@ -950,7 +950,7 @@ Bottom.create(
 Bottom.create(
     name:'Patterned Cotton Skirt', 
     price: 34.99, 
-    color:'white printed', 
+    color:'green floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -962,7 +962,7 @@ Bottom.create(
 Bottom.create(
     name:'Wide-Cut Jersey Pants', 
     price: 17.99, 
-    color:'white printed', 
+    color:'green floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'pants',
@@ -974,7 +974,7 @@ Bottom.create(
 Bottom.create(
     name:'Wide-Cut Jersey Pants', 
     price: 17.99, 
-    color:'light beige black printed', 
+    color:'black printed', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'pants',
@@ -986,7 +986,7 @@ Bottom.create(
 Bottom.create(
     name:'Vintage Straight High Jeans', 
     price: 39.99, 
-    color:'pale denim blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'ankle',
@@ -998,7 +998,7 @@ Bottom.create(
 Bottom.create(
     name:'Vintage Straight High Jeans', 
     price: 39.99, 
-    color:'light denim blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'ankle',
@@ -1012,7 +1012,7 @@ Bottom.create(
 Bottom.create(
     name:'Boyfriend Low Regular', 
     price: 39.99, 
-    color:'light denim blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'pants',
@@ -1024,7 +1024,7 @@ Bottom.create(
 Bottom.create(
     name:'Embrace High Ankle', 
     price: 39.99, 
-    color:'denim blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'pants',
@@ -1036,7 +1036,7 @@ Bottom.create(
 Bottom.create(
     name:'Embrace High Ankle', 
     price: 39.99, 
-    color:'dark denim blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'pants',
@@ -1084,7 +1084,7 @@ Bottom.create(
 Bottom.create(
     name:'Wide-Cut Paper-bag', 
     price: 19.99, 
-    color:'light blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'pants',
@@ -1098,7 +1098,7 @@ Bottom.create(
 Bottom.create(
     name:'Linen Joggers', 
     price: 34.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'ankle',
@@ -1110,7 +1110,7 @@ Bottom.create(
 Bottom.create(
     name:'Linen Joggers', 
     price: 34.99, 
-    color:'khaki green', 
+    color:'khaki', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'ankle',
@@ -1122,7 +1122,7 @@ Bottom.create(
 Bottom.create(
     name:'Linen Joggers', 
     price: 34.99, 
-    color:'dark blue', 
+    color:'navy', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'ankle',
@@ -1134,7 +1134,7 @@ Bottom.create(
 Bottom.create(
     name:'Linen Joggers', 
     price: 34.99, 
-    color:'light beige striped', 
+    color:'beige striped', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'ankle',
@@ -1158,7 +1158,7 @@ Bottom.create(
 Bottom.create(
     name:'Cashmere-Blend Joggers', 
     price: 59.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'pants',
@@ -1184,7 +1184,7 @@ Bottom.create(
 Bottom.create(
     name:'Patterned Skirt', 
     price: 34.99, 
-    color:'light beige floral print', 
+    color:'beige floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1196,7 +1196,7 @@ Bottom.create(
 Bottom.create(
     name:'Pleated Skirt', 
     price: 29.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1208,7 +1208,7 @@ Bottom.create(
 Bottom.create(
     name:'Eyelet Embroidery Skirt', 
     price: 49.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1220,7 +1220,7 @@ Bottom.create(
 Bottom.create(
     name:'Pleated Skirt', 
     price: 39.99, 
-    color:'dark blue', 
+    color:'navy', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'calf length',
@@ -1232,7 +1232,7 @@ Bottom.create(
 Bottom.create(
     name:'Pleated Skirt', 
     price: 39.99, 
-    color:'cream floral printed', 
+    color:'beige floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1244,7 +1244,7 @@ Bottom.create(
 Bottom.create(
     name:'Pleated Skirt', 
     price: 39.99, 
-    color:'light pink', 
+    color:'pink', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1256,7 +1256,7 @@ Bottom.create(
 Bottom.create(
     name:'Pleated Skirt', 
     price: 39.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1270,7 +1270,7 @@ Bottom.create(
 Bottom.create(
     name:'Linen-Blend Skirt', 
     price:34.99, 
-    color:'light beige printed', 
+    color:'beige floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1282,7 +1282,7 @@ Bottom.create(
 Bottom.create(
     name:'Linen-Blend Skirt', 
     price:34.99, 
-    color:'light beige black printed', 
+    color:'beige printed', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'calf length',
@@ -1294,7 +1294,7 @@ Bottom.create(
 Bottom.create(
     name:'Tie Belt Skirt', 
     price: 39.99, 
-    color:'cream black striped', 
+    color:'black striped', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'calf length',
@@ -1306,7 +1306,7 @@ Bottom.create(
 Bottom.create(
     name:'Skater Skirt', 
     price: 17.99, 
-    color:'black white dotted', 
+    color:'black dotted', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'mini',
@@ -1330,7 +1330,7 @@ Bottom.create(
 Bottom.create(
     name:'Skater Skirt', 
     price: 17.99, 
-    color:'black floral printed', 
+    color:'black floral', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'mini',
@@ -1342,7 +1342,7 @@ Bottom.create(
 Bottom.create(
     name:'A-Line Skirt', 
     price: 17.99, 
-    color:'yellow floral printed', 
+    color:'yellow floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'mini',
@@ -1356,7 +1356,7 @@ Bottom.create(
 Bottom.create(
     name:'A-Line Skirt', 
     price: 17.99, 
-    color:'black floral printed', 
+    color:'black floral', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'mini',
@@ -1368,7 +1368,7 @@ Bottom.create(
 Bottom.create(
     name:'High Waist Shorts', 
     price: 17.99, 
-    color:'blue denim', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'short',
@@ -1380,7 +1380,7 @@ Bottom.create(
 Bottom.create(
     name:'High Waist Shorts', 
     price: 17.99, 
-    color:'dark blue denim', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'short',
@@ -1392,7 +1392,7 @@ Bottom.create(
 Bottom.create(
     name:'High Waist Shorts', 
     price: 17.99, 
-    color:'dark denim gray denim', 
+    color:'black', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'short',
@@ -1416,7 +1416,7 @@ Bottom.create(
 Bottom.create(
     name:'High Waist Shorts', 
     price: 29.99, 
-    color:'light blue denim', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'short',
@@ -1428,7 +1428,7 @@ Bottom.create(
 Bottom.create(
     name:'High Waist Shorts', 
     price: 24.99, 
-    color:'denim blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'short',
@@ -1442,7 +1442,7 @@ Bottom.create(
 Bottom.create(
     name:'High Waist Shorts', 
     price: 24.99, 
-    color:'light denim blue', 
+    color:'denim', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'short',
@@ -1466,7 +1466,7 @@ Bottom.create(
 Bottom.create(
     name:'Ankle-Length Slacks', 
     price: 14.99, 
-    color:'stell blue printed', 
+    color:'navy printed', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'ankle',
@@ -1478,7 +1478,7 @@ Bottom.create(
 Bottom.create(
     name:'Ankle-Length Slacks', 
     price: 14.99, 
-    color:'cream black plaid', 
+    color:'gray plaid', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'ankle',
@@ -1502,7 +1502,7 @@ Bottom.create(
 Bottom.create(
     name:'Ankle-Length Slacks', 
     price: 14.99, 
-    color:'dark blue', 
+    color:'navy', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'ankle',
@@ -1514,7 +1514,7 @@ Bottom.create(
 Bottom.create(
     name:'Fitted Twill Pants', 
     price: 29.99, 
-    color:'cream', 
+    color:'beige', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'ankle',
@@ -1540,7 +1540,7 @@ Bottom.create(
 Bottom.create(
     name:'Fitted Twill Pants', 
     price: 29.99, 
-    color:'dark beige', 
+    color:'khaki', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'ankle',
@@ -1564,7 +1564,7 @@ Bottom.create(
 Bottom.create(
     name:'Wide-Cut Pants', 
     price: 17.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'bottoms', 
     seasons: 'spring summer', 
     length: 'ankle',
@@ -1576,7 +1576,7 @@ Bottom.create(
 Bottom.create(
     name:'Wide-Cut Pants', 
     price: 17.99, 
-    color:'black white striped', 
+    color:'black striped', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'ankle',
@@ -1588,7 +1588,7 @@ Bottom.create(
 Bottom.create(
     name:'Slacks', 
     price: 29.99, 
-    color:'light gray', 
+    color:'gray', 
     category:'bottoms', 
     seasons: 'spring summer fall winter', 
     length: 'ankle',
@@ -1719,7 +1719,7 @@ Shoe.create(
 Shoe.create(
     name:'Platform Sneakers', 
     price: 29.99, 
-    color:'light yellow batik patterned', 
+    color:'yellow printed', 
     category:'shoes', 
     seasons: 'spring summer',  
     shoe_type: 'sneakers',
@@ -1731,7 +1731,7 @@ Shoe.create(
 Shoe.create(
     name:'Platform Sneakers', 
     price: 29.99, 
-    color:'light purple', 
+    color:'purple', 
     category:'shoes', 
     seasons: 'spring summer',  
     shoe_type: 'sneakers',
@@ -1817,7 +1817,7 @@ Shoe.create(
 Shoe.create(
     name:'Fully-Fashioned Sneakers', 
     price: 29.99, 
-    color:'taupe', 
+    color:'khaki', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'sneakers',
@@ -1829,7 +1829,7 @@ Shoe.create(
 Shoe.create(
     name:'Sneakers', 
     price: 29.99, 
-    color:'beige snakeskin printed', 
+    color:'khaki snakeskin printed', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'sneakers',
@@ -1865,7 +1865,7 @@ Shoe.create(
 Shoe.create(
     name:'Mesh Sneakers', 
     price: 39.99, 
-    color:'white neon pink', 
+    color:'white', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'sneakers',
@@ -1915,7 +1915,7 @@ Shoe.create(
 Shoe.create(
     name:'Block-Heeled Ankle Boots', 
     price: 49.99, 
-    color:'taupe', 
+    color:'beige', 
     category:'shoes', 
     seasons: 'fall winter', 
     shoe_type: 'boots',
@@ -1927,7 +1927,7 @@ Shoe.create(
 Shoe.create(
     name:'Block-Heeled Ankle Boots', 
     price: 49.99, 
-    color:'brown snakeskin printed', 
+    color:'burgundy snakeskin printed', 
     category:'shoes', 
     seasons: 'fall winter', 
     shoe_type: 'boots',
@@ -1977,7 +1977,7 @@ Shoe.create(
 Shoe.create(
     name:'Loafers', 
     price: 29.99, 
-    color:'dark brown crocadile printed', 
+    color:'brown crocadile printed', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'loafers',
@@ -1989,7 +1989,7 @@ Shoe.create(
 Shoe.create(
     name:'Loafers', 
     price: 29.99, 
-    color:'dark beige', 
+    color:'beige', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'loafers',
@@ -2001,7 +2001,7 @@ Shoe.create(
 Shoe.create(
     name:'Loafers', 
     price: 29.99, 
-    color:'dark beige', 
+    color:'white', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'loafers',
@@ -2025,7 +2025,7 @@ Shoe.create(
 Shoe.create(
     name:'Loafers', 
     price: 14.99, 
-    color:'beige snakeskin patterned', 
+    color:'beige snakeskin printed', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'loafers',
@@ -2075,7 +2075,7 @@ Shoe.create(
 Shoe.create(
     name:'Suede Heels', 
     price: 34.99, 
-    color:'powder pink', 
+    color:'pink', 
     category:'shoes',  
     seasons: 'spring summer fall winter', 
     shoe_type: 'heels',
@@ -2099,7 +2099,7 @@ Shoe.create(
 Shoe.create(
     name:'Block-Heels', 
     price: 24.99, 
-    color:'light beige', 
+    color:'beige', 
     category:'shoes', 
     seasons: 'spring summer', 
     shoe_type: 'heels',
@@ -2395,13 +2395,13 @@ Shoe.create(
 
 p "shoes seeded"
 
-Outfit.create(user_id:1, top_id:2, bottom_id:4, shoe_id:28, name:'Officd Summer Chic')
+Outfit.create(user_id:1, top_id:2, bottom_id:4, shoe_id:28, name:'Office Summer Chic')
 Outfit.create(user_id:1, top_id:37, bottom_id:52, shoe_id:5, name:'Casual Street')
 
 Outfit.create(user_id:2, top_id:8, bottom_id:62, shoe_id:29, name:'Brunch Meeting')
 Outfit.create(user_id:2, top_id:46, bottom_id:18, shoe_id:5, name:'Basic Chill')
 
-Outfit.create(user_id:3, top_id:15, bottom_id:31, shoe_id:33, name:'Brunch Date')
+Outfit.create(user_id:3, top_id:15, bottom_id:31, shoe_id:33, name:'Summer Date')
 
 # Outfit.create(user_id:, top_id:, bottom_id:, shoe_id:, name:'')
 p "outfits seeded"
