@@ -2270,4 +2270,6 @@ FavoriteShoe.create(user_id:2, shoe_id:1)
 # FavoriteShoe.create(user_id:, shoe_id:)
 p "favoriteShoes seeded"
 
-
+Like.create(user_id:1, outfit_id:1)
+Like.create(user_id:1, outfit_id:2)
+Like.create(user_id:1, outfit_id:3)
