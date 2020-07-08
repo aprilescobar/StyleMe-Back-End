@@ -10,14 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_26_221156) do
+ActiveRecord::Schema.define(version: 2020_07_08_183255) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "bottoms", force: :cascade do |t|
     t.string "name"
-    t.float "price"
     t.string "color"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
@@ -66,6 +65,15 @@ ActiveRecord::Schema.define(version: 2020_06_26_221156) do
     t.index ["user_id"], name: "index_favorite_tops_on_user_id"
   end
 
+  create_table "likes", force: :cascade do |t|
+    t.bigint "outfit_id", null: false
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["outfit_id"], name: "index_likes_on_outfit_id"
+    t.index ["user_id"], name: "index_likes_on_user_id"
+  end
+
   create_table "outfits", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "top_id", null: false
@@ -82,7 +90,6 @@ ActiveRecord::Schema.define(version: 2020_06_26_221156) do
 
   create_table "shoes", force: :cascade do |t|
     t.string "name"
-    t.float "price"
     t.string "color"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
@@ -96,7 +103,6 @@ ActiveRecord::Schema.define(version: 2020_06_26_221156) do
 
   create_table "tops", force: :cascade do |t|
     t.string "name"
-    t.float "price"
     t.string "color"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
@@ -125,6 +131,8 @@ ActiveRecord::Schema.define(version: 2020_06_26_221156) do
   add_foreign_key "favorite_shoes", "users"
   add_foreign_key "favorite_tops", "tops"
   add_foreign_key "favorite_tops", "users"
+  add_foreign_key "likes", "outfits"
+  add_foreign_key "likes", "users"
   add_foreign_key "outfits", "bottoms"
   add_foreign_key "outfits", "shoes"
   add_foreign_key "outfits", "tops"
