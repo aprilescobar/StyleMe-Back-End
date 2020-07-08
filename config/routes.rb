@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :likes
   resources :comments
   resources :favorite_shoes, except: [:show, :update]
   resources :favorite_bottoms, except: [:show, :update]
