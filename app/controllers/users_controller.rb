@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
     def show
         user = User.find(params[:id])
-        render json: user, except: [:created_at, :updated_at], include: [:outfits, :favorite_tops, :favorite_bottoms, :favorite_shoes]
+        render json: user, except: [:created_at, :updated_at], include: [:outfits, :favorite_tops, :favorite_bottoms, :favorite_shoes, :likes]
     end
 
     def create
