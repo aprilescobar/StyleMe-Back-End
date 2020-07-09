@@ -1,7 +1,7 @@
 class OutfitsController < ApplicationController
     def index
         outfits = Outfit.all
-        render json: outfits, except: [:updated_at], include: [:user,:top, :bottom, :shoe]
+        render json: outfits, except: [:updated_at], include: [:user,:top, :bottom, :shoe, :likes]
      end 
   
      def show 
