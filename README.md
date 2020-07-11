@@ -1,25 +1,42 @@
-# README
+# StyleMe (Back-End)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<div align="center">
+<img
+    src="https://github.com/aprilfaithdays/Style-Me-Front-End/blob/master/src/icons/welcome-banner.png"
+    width="100%"
+  />
+</div>
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+StyleMe is all about having a library of outfit options. On days when you don't know what to wear,
+you can simply log into your StyleMe account, browse through your outfits library, and wear the look you're going for!
 
-* System dependencies
+For added inspiration, you have the ability to browse other outfits created by other users. You can like and comment any of the 
+outfits you see! Once you like an outfit, it's saved in your liked library for you to reference later on! Or you know... unless the 
+user decided to delete that outfit... then it'll disappear from your liked library too.
 
-* Configuration
+Feel free to explore and experience StyleMe in the live demo link below!
 
-* Database creation
+<em><b>Please note:</b> The products are limited to women's wear.</em>
 
-* Database initialization
+#### Quick Demo of Creating an Outfit:
+<div align="center">
+<img
+    src="https://github.com/aprilfaithdays/Style-Me-Front-End/blob/master/src/icons/createOutfit.gif"
+    width="100%"
+  />
+</div>
 
-* How to run the test suite
+### Live Demo:
+<em>Coming soon!</em>
 
-* Services (job queues, cache servers, search engines, etc.)
+### Video Demo:
+<em>Coming soon!</em> 
 
-* Deployment instructions
+### Let's Connect!
+[LinkedIn](https://www.linkedin.com/in/april-escobar/)
 
-* ...
-# Style-Me-Back-End
+<div align="center">
+    <em><b>Disclaimer:</b> We do not own the rights to any of the images used for this project.</em>
+</div>
