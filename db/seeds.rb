@@ -2879,7 +2879,6 @@ FavoriteBottom.create(user_id:7, bottom_id:15)
 FavoriteBottom.create(user_id:8, bottom_id:53)
 FavoriteBottom.create(user_id:8, bottom_id:66)
 FavoriteBottom.create(user_id:8, bottom_id:62)
-FavoriteBottom.create(user_id:8, bottom_id:53)
 
 FavoriteBottom.create(user_id:9, bottom_id:69)
 FavoriteBottom.create(user_id:9, bottom_id:65)
