@@ -107,7 +107,7 @@ User.create(
 
 # User.create(
 #     name:'', 
-#     username:'', 
+#     usern', 
 #     password:'', 
 #     img_url:''
 # )
@@ -751,9 +751,166 @@ Top.create(
 
 # ----------------------------------------------------------------------------------------------------- #
 
+Top.create(
+    name:'Balloon-Seelved Sweater', 
+    color:'beige', 
+    category:'tops', 
+    seasons: 'fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a9/43/a943844ac3f72761274b7199129fa5f5c898184c.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/be/4c/be4ccc4c88871bef952519a2747700babe91bb4b.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7a/5b/7a5bb600e03a21875ff8f50fc79acbda55e70043.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Knit Sweater', 
+    color:'pink', 
+    category:'tops', 
+    seasons: 'fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b9/b9/b9b95068f8ffb2b1fcbe35a7efcb7f7a36020a48.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/93/b3/93b30c673e5bac92637e7de6f8f964076fb7f4df.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e9/71/e971c937a5fb765a8c660862b4b92efa7fee1917.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Chunky-Knit Sweater', 
+    color:'pink', 
+    category:'tops', 
+    seasons: 'fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/de/f8/def8d93f04bfe2da34378b958874e005824f2eac.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c2/a5/c2a5fe3cfe59e62ca45ec14a2a7a8583f81b22e4.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f5/2b/f52b87303568d0aed7c5460b567c252b12a0edd2.jpg],origin[dam],category[ladies_cardigansjumpers_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Fine-Knit Sweater', 
+    color:'black stripped', 
+    category:'tops', 
+    seasons: 'fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/85/a2/85a2ba7930fc9f35b193da80fbf3d08e3452c7da.jpg],origin[dam],category[ladies_knitwear_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/cb/aacb8724346caf4d1e1254efa74da1199a743ca7.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/24/7b/247b9d580e87995d7441df4e2b1871480a4e36f0.jpg],origin[dam],category[ladies_knitwear_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Dolman Sleeved Sweater', 
+    color:'beige', 
+    category:'tops', 
+    seasons: 'fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2e/48/2e48ba3e33f14ab0cdc639bc7a927664c110beab.jpg],origin[dam],category[ladies_knitwear_jumpers],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ef/95/ef950412ec55a7e22df5d98acde71a8419a54af0.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/eb/27/eb27a5284a50515380c43aba0631c80421c50b6b.jpg],origin[dam],category[ladies_knitwear_jumpers],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Cable-Knit Sweater', 
+    color:'khaki', 
+    category:'tops', 
+    seasons: 'spring summer fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d3/74/d3744feb2a3dc607ccbf2825c31081e00b69645d.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/27/51/275123342428188d106343b60df59f161add1373.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/51/fc/51fc877259129514819347bfd0ca0e4277463cef.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Hoodie', 
+    color:'pink', 
+    category:'tops', 
+    seasons: 'spring fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/43/b4/43b41b80c51894108af78e3ecb33a3fb6db5b56a.jpg],origin[dam],category[ladies_hoodiesswetshirts_hoodies],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ab/e8/abe8c0ed8d9d99ae059cd48babc9ece4639ebf70.jpg],origin[dam],category[ladies_hoodiesswetshirts_hoodies],type[DESCRIPTIVESTILLLIFE],res[s],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c5/03/c503519ceeb8e6de1e9c2430030acda9802e970f.jpg],origin[dam],category[ladies_hoodiesswetshirts_hoodies],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Top.create(
+    name:'Cropped Sweatshirt', 
+    color:'pink', 
+    category:'tops', 
+    seasons: 'spring fall winter', 
+    sleeve_length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4f/e6/4fe60602189ddeb7b4716aecfbf19211882354b1.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c7/50/c7505fd8c781311dba70b125cbd629467fa17dd3.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/22/60/226033508b02b980c2cc8953119ac9cff9121ebe.jpg],origin[dam],category[ladies_hoodiesswetshirts_sweatshirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Cropped Tank Top', 
+    color:'black', 
+    category:'tops', 
+    seasons: 'spring summer', 
+    sleeve_length: 'tank',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ef/e2/efe20da0740cddafd67cf446f86b3cdaa5ee221e.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/07/6f/076f2141a5267bfb11a1a26f58d4744bb96a0cb8.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7d/81/7d817af74d10b630e1e8025253f287b259352c3b.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Cropped Tank Top', 
+    color:'pink', 
+    category:'tops', 
+    seasons: 'spring summer', 
+    sleeve_length: 'tank',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/90/dd/90dda925460fffb7c3b7d1b40bc4e649480d3785.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/78/34/7834faed0d31e8954fecc4d682c14587fa8fc343.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fa/84/fa8422b0fa8a9ac696ff09dc9f7c89cf12e949ac.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'V-Neck Camisole', 
+    color:'white', 
+    category:'tops', 
+    seasons: 'spring summer fall winter', 
+    sleeve_length: 'tank',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/73/ac/73acfa00a527607f7cdb8babefa34bb1fddafcca.jpg],origin[dam],category[ladies_tops_vests],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0a/8a/0a8a45ad5e58669cc75e4bc5ed4c8eca6424b888.jpg],origin[dam],category[ladies_tops_vests],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d4/6e/d46ea5fe93f7d031bc6c42a3a32b22a9e094f8b2.jpg],origin[dam],category[ladies_tops_vests],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Ribbed Tank Top', 
+    color:'beige', 
+    category:'tops', 
+    seasons: 'spring summer fall winter', 
+    sleeve_length: 'tank',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8e/3e/8e3e542656da7606e9439a3be9e9b1460d8a0136.jpg],origin[dam],category[ladies_tops_vests],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/88/30/8830e3e3dfdd0ce25505ac692adb1e6fcb3baf6c.jpg],origin[dam],category[ladies_tops_vests],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/43/b5/43b5253351b701013f44a5aaf64727cc65e9c6f6.jpg],origin[dam],category[ladies_tops_vests],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Sleeveless Crinkled Top', 
+    color:'pink', 
+    category:'tops', 
+    seasons: 'spring summer fall winter', 
+    sleeve_length: 'tank',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0e/00/0e004edd3d9e245281962469161fc85a2d337d9b.jpg],origin[dam],category[ladies_tops_vests],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/45/a5/45a511db189244555a5020b6a70639aa86f62b0e.jpg],origin[dam],category[ladies_tops_vests],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5c/ba/5cba85262d1b1043c1af91eab94e7fcb33501f95.jpg],origin[dam],category[ladies_tops_vests],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Top.create(
+    name:'Cotton T-Shirt', 
+    color:'white', 
+    category:'tops', 
+    seasons: 'spring summer fall winter', 
+    sleeve_length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/77/67/77674f1572171653ddfcc2df6a4fd63721f39c4a.jpg],origin[dam],category[ladies_tops_shortsleeve],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b1/1d/b11d4cf6740890480b5a16ff5a5c106a60035e4e.jpg],origin[dam],category[ladies_tops_shortsleeve],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bb/bd/bbbd12ca30acf884378c2e9673d6b968096e7b4c.jpg],origin[dam],category[ladies_tops_shortsleeve],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
 # Top.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'tops', 
 #     seasons: 'spring summer fall winter', 
@@ -765,7 +922,6 @@ Top.create(
 
 # Top.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'tops', 
 #     seasons: 'spring summer fall winter', 
@@ -777,7 +933,6 @@ Top.create(
 
 # Top.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'tops', 
 #     seasons: 'spring summer fall winter', 
@@ -789,7 +944,6 @@ Top.create(
 
 # Top.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'tops', 
 #     seasons: 'spring summer fall winter', 
@@ -801,7 +955,6 @@ Top.create(
 
 # Top.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'tops', 
 #     seasons: 'spring summer fall winter', 
@@ -813,7 +966,6 @@ Top.create(
 
 # Top.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'tops', 
 #     seasons: 'spring summer fall winter', 
@@ -825,7 +977,6 @@ Top.create(
 
 # Top.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'tops', 
 #     seasons: 'spring summer fall winter', 
@@ -834,6 +985,7 @@ Top.create(
 #     img_url:'',
 #     back_view:'',
 # )
+
 
 # ----------------------------------------------------------------------------------------------------- #
 
@@ -1555,10 +1707,88 @@ Bottom.create(
 
 # ----------------------------------------------------------------------------------------------------- #
 
+Bottom.create(
+    name:'Skater Skirt', 
+    color:'black plaid', 
+    category:'bottoms', 
+    seasons: 'spring summer fall', 
+    length: 'short',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5a/d1/5ad10d45945810b6d3c5bb80c2de541f5d41d8ff.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/10/5d/105dd7f2f7be27d3185f969c1862a473b466be03.jpg],origin[dam],category[ladies_skirts_shortskirts],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/66/af/66afa7f5a4b81268bf80a8cae0e35d4159277561.jpg],origin[dam],category[ladies_skirts_shortskirts],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Satin Utility Pants', 
+    color:'black', 
+    category:'bottoms', 
+    seasons: 'spring summer fall winter', 
+    length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f2/89/f289000519990739206cd2d7390ff9ff808293f7.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/63/ce/63ce38e41865795ffe7e6e6f21b9021c2deb0c1b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/25/17/2517849b9b29836c3b22994a0cd703613294acf0.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    color:'white stripped', 
+    category:'bottoms', 
+    seasons: 'spring summer fall', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/71/9a/719a7e480e7997c524e219aeb461bb3df26a128e.jpg],origin[dam],category[ladies_trousers_slim],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/22/3b/223bd9a1ed6fb53998ee122f5c6ddbc0c1d7e40f.jpg],origin[dam],category[ladies_trousers_slim],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4f/44/4f44a0fbf84a351729d2b8ec8d560244404ab4d6.jpg],origin[dam],category[ladies_trousers_slim],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Slacks', 
+    color:'pink floral', 
+    category:'bottoms', 
+    seasons: 'spring summer', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/46/de/46dea07ed623363ebc831fb64ca2f21d7632ac59.jpg],origin[dam],category[ladies_trousers_slim],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2e/9d/2e9d414f6f57b20686a3b4e654692d7f22130284.jpg],origin[dam],category[ladies_trousers_slim],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/56/25/562555dbbfa6778ad7e4e31e39d917623b435a82.jpg],origin[dam],category[ladies_trousers_slim],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Ankle-Length Pants', 
+    color:'white', 
+    category:'bottoms', 
+    seasons: 'spring summer fall winter', 
+    length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7a/d9/7ad9a684051f18ab7cf1b02126473214bded7883.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9f/cd/9fcdaa3409fb31388684cd16cbbd713c3985c01e.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ab/16/ab16dda142cef371f845c94720eb0044d8fa86e9.jpg],origin[dam],category[ladies_trousers_chinosslacks],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Fitted Jersey Skirt', 
+    color:'black plaid', 
+    category:'bottoms', 
+    seasons: 'spring summer fall winter', 
+    length: 'long',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a0/e9/a0e9d8db190f4a7f1144bc73706e24c246516e5d.jpg],origin[dam],category[],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ad/14/ad14c18f08836d4dca65f3070cd9f6ced5398c1c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e2/5b/e25b7e44c57c3b847d6c3d68e8af08dc4e4bc41d.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Bottom.create(
+    name:'Twill Paper-Bag Pants', 
+    color:'white', 
+    category:'bottoms', 
+    seasons: 'spring summer fall winter', 
+    length: 'ankle',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/db/87/db87291dd8d1e77b830100f74b1fe996a5d89226.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c1/e7/c1e70a6d7fffd0530b604da197d899b55448a027.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3c/69/3c69bc5a1f6edf45fa489b8543b7a7481748ff70.jpg],origin[dam],category[],type[LOOKBOOK],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
 # Bottom.create(
 #     name:'', 
-#   
-#     color:'', 
+#     color, 
 #     category:'bottoms', 
 #     seasons: 'spring summer fall winter', 
 #     length: '',
@@ -1569,8 +1799,7 @@ Bottom.create(
 
 # Bottom.create(
 #     name:'', 
-#   
-#     color:'', 
+#     color, 
 #     category:'bottoms', 
 #     seasons: 'spring summer fall winter', 
 #     length: '',
@@ -1581,8 +1810,7 @@ Bottom.create(
 
 # Bottom.create(
 #     name:'', 
-#   
-#     color:'', 
+#     color, 
 #     category:'bottoms', 
 #     seasons: 'spring summer fall winter', 
 #     length: '',
@@ -1593,8 +1821,7 @@ Bottom.create(
 
 # Bottom.create(
 #     name:'', 
-#   
-#     color:'', 
+#     color, 
 #     category:'bottoms', 
 #     seasons: 'spring summer fall winter', 
 #     length: '',
@@ -1605,8 +1832,7 @@ Bottom.create(
 
 # Bottom.create(
 #     name:'', 
-#   
-#     color:'', 
+#     color, 
 #     category:'bottoms', 
 #     seasons: 'spring summer fall winter', 
 #     length: '',
@@ -1617,8 +1843,7 @@ Bottom.create(
 
 # Bottom.create(
 #     name:'', 
-#   
-#     color:'', 
+#     color, 
 #     category:'bottoms', 
 #     seasons: 'spring summer fall winter', 
 #     length: '',
@@ -1629,8 +1854,7 @@ Bottom.create(
 
 # Bottom.create(
 #     name:'', 
-#   
-#     color:'', 
+#     color, 
 #     category:'bottoms', 
 #     seasons: 'spring summer fall winter', 
 #     length: '',
@@ -1640,7 +1864,6 @@ Bottom.create(
 # )
 
 # # ----------------------------------------------------------------------------------------------------- #
-
 
 p "bottoms seeded"
 
@@ -1898,7 +2121,7 @@ Shoe.create(
 
 Shoe.create(
     name:'Loafers', 
-    color:'brown crocadile printed', 
+    color:'brown crocodile printed', 
     category:'shoes', 
     seasons: 'spring summer fall winter', 
     shoe_type: 'loafers',
@@ -2043,95 +2266,403 @@ Shoe.create(
 
 # ----------------------------------------------------------------------------------------------------- #
 
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-    # live_view:'',
-    # img_url:'',
-    # back_view:'',
-# )
+Shoe.create(
+    name:'Wedge-Heeled Sandals', 
+    color:'beige', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'wedge',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/20/10/2010dc82183fffad57a812372d65194d5e3a9cc1.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c1/88/c188b913f54d023e301531442ce345171193fe55.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f2/45/f245bf6cf863a1d4a3d7090163a699d5a8d980ad.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
 
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
+Shoe.create(
+    name:'Platform Espadrilles', 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'espadrilles',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/67/67/676723218556e101f6571fe4b4abd883d5c3bb2a.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/55/43/55431de2e88ebed314e085eb5ec69b30903749d1.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ba/94/ba94b7e4fff08a014fa937fee894a1bbf7f67c6b.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
 
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
+Shoe.create(
+    name:'Slides', 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sandals',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5f/c5/5fc5e699f7424fae273aa29d264f452150eb8d25.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/18/fe/18fe296267a78ff8936737337237adae2bbe67f8.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a6/f4/a6f4a7950d6a333b75c5664ac376ee219e328efb.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
 
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
+Shoe.create(
+    name:'Sandals', 
+    color:'beige', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sandals',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e1/67/e167e0a650b0ed8300b35a5621176e097828dd33.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e9/85/e9852bab75748b674b91dff5583b3d21252c8c09.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a9/6f/a96f0b2f4e66ba467607c43f902abf177f004dd5.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
 
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
+Shoe.create(
+    name:'Strappy Sandals', 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sandals',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/54/a9/54a91db564449f68b014716f9c7dd2ede0361e2d.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7a/17/7a17368584c34e5128f162b6b487441766271fc0.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/60/8f/608fdbbe5b7cc1ce3e105a76a7431f9ddc0ec180.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
 
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
+Shoe.create(
+    name:'platform sandals', 
+    color:'brown', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'platform',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6d/23/6d23254fd453caf2d98bbe7bb17044c5ac6128a3.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/cc/c6/ccc6e5618b6177ea5050bfe3296b75c4152ba7d3.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/42/14/421422619d15490ea5cdf3e5758a73655230122c.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
 
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
+Shoe.create(
+    name:'Platform Sandals', 
+    color:'red', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'platform',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b0/12/b012dcd8f6704245033ffb807773406fac040832.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f3/64/f36409ae619a6a38062e99dedde72778960edb6d.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0a/93/0a93ec6b234395eb05acbe7ae634835e360f661a.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Platform Espadrilles',
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'platform',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/99/ed/99ed1e3713c0482940d7e25c660b570b380de62a.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6f/73/6f73c16dfc692f22621971dcc5e8369752862b65.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c6/80/c680ec02e318b7a8fe50cb15be914beb6db8f669.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Platform Espadrilles', 
+    color:'pink', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'platform',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/71/52/715237846013273b3ec8c9ac1b77692af838fda1.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/4c/16/4c160d142f2d3103e33a40faf045e036d4bffa80.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6d/d7/6dd72379bad13a92eeaba4bb538227b2b4a0079c.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Leather Sandals', 
+    color:'red', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sandals',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bc/0a/bc0a071c0477b842a7aa9060ba2297d1a65a2f20.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ed/6d/ed6d275ae7ce87b13bddca63833ac27dd95d0451.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/03/d1/03d17b7f344150969dab39f7ea93f5093bb56394.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Leather Sandals', 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sandals',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9a/76/9a76a0d4a0a31c449f999b7aa729debecbeaf575.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2a/fc/2afc892b6354f312afbc6a0fb965b75b65927537.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/18/59/1859be87b669fe65b91b4c076d7a34cf8cad1409.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'platform sandals', 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'platform',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/6d/34/6d34b4063d47cdf5bccdc57d2cb7c0b4042317a1.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/61/dd/61dd05e511b6d246d99bba18af9cf17f039b949a.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/95/8b/958b0395db93481cdbff6e666fa1d565aa36695b.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Tassled Sandal', 
+    color:'black crocodile', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sandal',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/59/8b/598b561f894f39868ba6ffbc6ff0db5e0628af78.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/87/66/876694f7aa67b3826eb815c19e09304a3e14b36a.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/07/2d/072dd0102d5bd691de848eb2d4733dff5e93c12e.jpg],origin[dam],category[ladies_shoes_sandals_espandrillos],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Quilted Pool Shoes', 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'slide',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7d/40/7d40bcdf61a8c58b244c208ccdb99f9415898ab2.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8a/35/8a35fecca64f0af8ffac2de516369f8937f1b6c7.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fa/b7/fab729ffe9464985dc409626b5f68daeae06d44f.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Slip-in Sandals', 
+    color:'pink', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sandals',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d0/8b/d08b9dea4839069285bfc57e2cfabb65609daad5.jpg],origin[dam],category[Ladies_shoes_slipon],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/43/22/432248cc734104ac0a1026a67c1d071a508af54e.jpg],origin[dam],category[Ladies_shoes_slipon],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/df/f4/dff4ad081ba45af877ddbca483911b614ec4e1a2.jpg],origin[dam],category[Ladies_shoes_slipon],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Leather Slides', 
+    color:'green snakeskin', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'slides',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0c/e6/0ce62eb013790ff97d275830a8ddbcef35f90485.jpg],origin[dam],category[Ladies_shoes_slipon],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/85/23/852359fbb7bea82e3818211763b1e8a64d19f8a8.jpg],origin[dam],category[Ladies_shoes_slipon],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5a/59/5a59a349c17e0c6b5e75609301f95997c0fc9a1c.jpg],origin[dam],category[Ladies_shoes_slipon],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Suede Mules', 
+    color:'brown', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'mule',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/66/6c/666c3313d1ff974ea30e7195efa19dc021dd8155.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b0/57/b0570060c0ebd0cbfb808dd70386ea27dde3f2ed.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fb/85/fb85a9daa06d3fd12952e8af11a75f566ccdb17b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Mules', 
+    color:'yellow', 
+    category:'shoes', 
+    seasons: 'spring summer fall', 
+    shoe_type: 'mule',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/d1/0a/d10a962a3007ff4937b28a1b25f7b0e093fceb1c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/c2/38/c23814b8d95ed7fe7e1ea739fef74697c6ffe9fb.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/42/1c/421c55c88e47e9a70f025ec74ebf01dee87981e3.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Slides', 
+    color:'pink', 
+    category:'shoes', 
+    seasons: 'spring summer fall winter', 
+    shoe_type: 'slides',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fe/5d/fe5d37069c7cb58e21003a3dbcc94eaf4d2a2958.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e5/02/e5020097f7977ea8f587b63540f974fa5ac0b021.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/da/96/da96ca2efb81553afa684cd7471584785d71bcd1.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Canvas Sneakers', 
+    color:'pink', 
+    category:'shoes', 
+    seasons: 'spring summer fall', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5b/91/5b91a919e98681f77220be04c67ed928b725e599.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0b/03/0b0358c083524f0bb591109a4a655d48ddff4f4d.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f5/76/f576412a258af89ed8b451a3e6fdb2e7aab36c59.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Warm-Lined Boots', 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'fall winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2e/be/2ebefa49302b58ef5987d4c50ba25135ffec6fd8.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/95/e7/95e70a76dd680ad753ff8dd26c5f761475efe607.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3c/8f/3c8f2bef84124406574118429dea0e14db955976.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Mesh Sneakers', 
+    color:'pink', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/46/96/46961de4f3dcf9c498a5e561564cfda6686ea4e8.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b0/52/b0521161aa57959aae89d1101344928acb38f780.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9b/ac/9bacce2afb4e5badd925f22eba4fd07f0160cb2a.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Canvas High Tops', 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring summer fall winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/90/59/90597696267e45b1deb403688fbf57d44389e5f7.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/a3/c1/a3c1ae80d13a9cfa8c2a64188cca77a906804331.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/81/57/81571a3b5d326d24eed283449a1e889939b7fe62.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Warm-lined Boots', 
+    color:'brown', 
+    category:'shoes', 
+    seasons: 'fall winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/18/bf/18bff48c7ba3663463d7593e9c89cb2e426223d6.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/0e/ae/0eaebaa70d58ef4b43ec290fdc5196127436c81e.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ff/af/ffafcbe399686e884094eb2c608e3421a2a278ff.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Knee-High Boots', 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'fall winter', 
+    shoe_type: 'boots',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8b/5e/8b5eafd3dc0008bc9ac4e82e17b15f16458d7b43.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/41/6c/416c1f1d095b2c4898d3891e2d5698e20bd6ec5f.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/22/fe/22fe406ba6bc79e13ad20f0dc00c179e2a5a01aa.jpg],origin[dam],category[ladies_shoes_boots],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Sneakers', 
+    color:'white', 
+    category:'shoes', 
+    seasons: 'spring summer fall winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/bc/49/bc4922429046dca9bfad4d92cfbebc39376e746b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/fd/ef/fdef7df9cced9eecde32d29d298dbf25b58d835d.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/91/2a/912a0a9df81d735d38077d22d4f414c77d179aeb.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Platform Sneakers', 
+    color:'green', 
+    category:'shoes', 
+    seasons: 'spring summer fall winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/b9/b9/b9b9861e5c13ca4355def114f0f506cdab77f4b0.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/20/c8/20c84005d0cc3840d62eadc49d3dee6bb4587838.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ac/5c/ac5ca673a455acff274ca655a407f169b957dbfa.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Slip-On Sneakers', 
+    color:'pink', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ad/b6/adb688c3567e8e35c50125b9115853562dc51359.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[2]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/03/fd/03fd4ec6f1d8265cc6f6982228e540027c3db6c1.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/7f/23/7f2304bd6e99fcb5530efce438086f1eff8bb4d4.jpg],origin[dam],category[ladies_shoes_sneakers],type[DESCRIPTIVEDETAIL],res[s],hmver[2]&call=url[file:/product/main]',
+)
+
+# ----------------------------------------------------------------------------------------------------- #
+
+Shoe.create(
+    name:'Platform High Tops', 
+    color:'beige', 
+    category:'shoes', 
+    seasons: 'spring summer fall winter', 
+    shoe_type: 'sneakers',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/e4/db/e4dbacac90f261f86a6daf71c76e56fea25d265c.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/f0/57/f0572b462deda8608b12dc0e711e137fc2fdcb49.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/1a/56/1a565d81da6e64ccff651e92d2c3249ee4a39682.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Wedge-Heeled Sandals', 
+    color:'red', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'wedge',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ec/75/ec75bd3c64cd688009d9e09d710849971ae6b1e2.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/aa/13/aa132396f853ce80bd77d363dcd34c49548e3f17.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ec/75/ec75bd3c64cd688009d9e09d710849971ae6b1e2.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Wedge-Heeled Sandals', 
+    color:'beige', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'wedge',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/2c/3a/2c3af798b221a32371b87704eefe698353a0c387.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/61/1d/611dce605d7f9aba1904b347c13513abd73481e2.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/90/6a/906a6710dae01477c71e97b7085363a877b2cd18.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Wedge-Heeled Sandals', 
+    color:'black', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'wedge',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/88/ad/88ad6eedde4987f915dfe9ede0642006c6d8753f.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/38/b7/38b7dcdc23df9cea266b2a83217a61bc1089cfac.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/26/28/262829a53ba3d26b84d64e05eccd505f08f439ae.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Wedge-Heeled Sandals', 
+    color:'brown', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'wedge',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/77/a0/77a00644484dce9cb724d58326c6dbe1010867f5.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/50/41/5041856c106d282c06124b7c448e3d2089f67004.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/9f/64/9f64a29d552a71e182b83e1a404e28a9066a6f1d.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Slides', 
+    color:'beige', 
+    category:'shoes', 
+    seasons: 'spring summer', 
+    shoe_type: 'slides',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/75/f4/75f4b34f4e8669796a149f3c9dbbe4b2c5112586.jpg],origin[dam],category[],type[DESCRIPTIVEDETAIL],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/3e/e8/3ee860b3b514bb23107e494b267b3ce9b782f37a.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/78/bd/78bdcfe50e9f348561994ea1e08c56590067744f.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
+
+Shoe.create(
+    name:'Sandals', 
+    color:'pink', 
+    category:'shoes', 
+    seasons: 'spring summer fall winter', 
+    shoe_type: 'sandals',
+    live_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/ec/b2/ecb27b5cafbe22246b1c5b9e3ae7c55c649d895f.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+    img_url:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/8d/9c/8d9cdc52e4ec72e0fec89bc1a83834ba892d9833.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]',
+    back_view:'https://lp2.hm.com/hmgoepprod?set=quality[79],source[/5e/e9/5ee9d9083a25d09f4c909470ed18c1fbb319319f.jpg],origin[dam],category[ladies_shoes_pumps_highheels],type[DESCRIPTIVESTILLLIFE],res[s],hmver[1]&call=url[file:/product/main]',
+)
 
 # ----------------------------------------------------------------------------------------------------- #
 
 # Shoe.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'shoes', 
 #     seasons: 'spring summer fall winter', 
@@ -2143,7 +2674,6 @@ Shoe.create(
 
 # Shoe.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'shoes', 
 #     seasons: 'spring summer fall winter', 
@@ -2155,7 +2685,6 @@ Shoe.create(
 
 # Shoe.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'shoes', 
 #     seasons: 'spring summer fall winter', 
@@ -2167,7 +2696,6 @@ Shoe.create(
 
 # Shoe.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'shoes', 
 #     seasons: 'spring summer fall winter', 
@@ -2179,7 +2707,6 @@ Shoe.create(
 
 # Shoe.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'shoes', 
 #     seasons: 'spring summer fall winter', 
@@ -2191,7 +2718,6 @@ Shoe.create(
 
 # Shoe.create(
 #     name:'', 
-#   
 #     color:'', 
 #     category:'shoes', 
 #     seasons: 'spring summer fall winter', 
@@ -2203,93 +2729,6 @@ Shoe.create(
 
 # Shoe.create(
 #     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# ----------------------------------------------------------------------------------------------------- #
-
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Shoe.create(
-#     name:'', 
-#   
-#     color:'', 
-#     category:'shoes', 
-#     seasons: 'spring summer fall winter', 
-#     shoe_type: '',
-#     live_view:'',
-#     img_url:'',
-#     back_view:'',
-# )
-
-# Shoe.create(
-#     name:'', 
-#   
 #     color:'', 
 #     category:'shoes', 
 #     seasons: 'spring summer fall winter', 
@@ -2306,13 +2745,52 @@ p "shoes seeded"
 
 Outfit.create(user_id:1, top_id:2, bottom_id:4, shoe_id:28, name:'Office Summer Chic')
 Outfit.create(user_id:1, top_id:37, bottom_id:52, shoe_id:5, name:'Casual Street')
-
 Outfit.create(user_id:2, top_id:8, bottom_id:62, shoe_id:29, name:'Brunch Meeting')
 Outfit.create(user_id:2, top_id:46, bottom_id:18, shoe_id:5, name:'Basic Chill')
-
 Outfit.create(user_id:3, top_id:15, bottom_id:31, shoe_id:33, name:'Summer Date')
+Outfit.create(user_id:4, top_id:64, bottom_id:69, shoe_id:7, name:'Casual')
+Outfit.create(user_id:5, top_id:65, bottom_id:4, shoe_id:47, name:'Chic Street')
 
-# Outfit.create(user_id:, top_id:, bottom_id:, shoe_id:, name:'')
+Outfit.create(user_id:8, top_id:38, bottom_id:53, shoe_id:58, name:'Casual Street')
+Outfit.create(user_id:9, top_id:57, bottom_id:69, shoe_id:20, name:'Sweater Weather')
+Outfit.create(user_id:6, top_id:8, bottom_id:21, shoe_id:66, name:'Brunch')
+Outfit.create(user_id:3, top_id:64, bottom_id:9, shoe_id:31, name:'Cool Spring')
+Outfit.create(user_id:5, top_id:60, bottom_id:8, shoe_id:47, name:'Chic Street')
+Outfit.create(user_id:9, top_id:70, bottom_id:65, shoe_id:9, name:'Casual Street')
+Outfit.create(user_id:3, top_id:66, bottom_id:29, shoe_id:31, name:'Hot Summer')
+
+Outfit.create(user_id:7, top_id:57, bottom_id:48, shoe_id:9, name:'Bonfire')
+Outfit.create(user_id:10, top_id:67, bottom_id:62, shoe_id:25, name:'Work (add blazer)')
+Outfit.create(user_id:7, top_id:62, bottom_id:17, shoe_id:10, name:'Basic')
+Outfit.create(user_id:1, top_id:37, bottom_id:53, shoe_id:9, name:'Casual Street')
+Outfit.create(user_id:11, top_id:59, bottom_id:62, shoe_id:55, name:'Casual Friday')
+Outfit.create(user_id:12, top_id:66, bottom_id:30, shoe_id:31, name:'Blushing')
+Outfit.create(user_id:14, top_id:53, bottom_id:70, shoe_id:25, name:'Hamptons')
+
+Outfit.create(user_id:5, top_id:65, bottom_id:69, shoe_id:47, name:'Hot Summer')
+Outfit.create(user_id:11, top_id:57, bottom_id:4, shoe_id:26, name:'Work')
+Outfit.create(user_id:4, top_id:66, bottom_id:31, shoe_id:29, name:'Summer Date')
+Outfit.create(user_id:3, top_id:64, bottom_id:62, shoe_id:31, name:'Work')
+Outfit.create(user_id:13, top_id:40, bottom_id:65, shoe_id:7, name:'Lazy Day')
+Outfit.create(user_id:8, top_id:70, bottom_id:66, shoe_id:13, name:'Casual Street')
+Outfit.create(user_id:14, top_id:67, bottom_id:11, shoe_id:66, name:'Summer')
+
+Outfit.create(user_id:14, top_id:53, bottom_id:21, shoe_id:29, name:'Brunch')
+Outfit.create(user_id:4, top_id:15, bottom_id:29, shoe_id:29, name:'Brunch Date')
+Outfit.create(user_id:8, top_id:24, bottom_id:62, shoe_id:26, name:'Work')
+Outfit.create(user_id:9, top_id:46, bottom_id:66, shoe_id:5, name:'Casual Street')
+Outfit.create(user_id:1, top_id:57, bottom_id:8, shoe_id:22, name:'Work')
+Outfit.create(user_id:2, top_id:64, bottom_id:53, shoe_id:13, name:'Casual Friday')
+Outfit.create(user_id:14, top_id:31, bottom_id:70, shoe_id:25, name:'Brunch')
+
+Outfit.create(user_id:7, top_id:66, bottom_id:15, shoe_id:31, name:'Brunch')
+Outfit.create(user_id:10, top_id:21, bottom_id:69, shoe_id:20, name:'Fall Chic')
+Outfit.create(user_id:14, top_id:8, bottom_id:70, shoe_id:29, name:'Brunch')
+Outfit.create(user_id:13, top_id:37, bottom_id:65, shoe_id:8, name:'Casual Street')
+Outfit.create(user_id:15, top_id:13, bottom_id:31, shoe_id:29, name:'Summer')
+Outfit.create(user_id:8, top_id:62, bottom_id:53, shoe_id:5, name:'Casual Friday')
+Outfit.create(user_id:15, top_id:15, bottom_id:68, shoe_id:31, name:'Office Brunch')
+
 p "outfits seeded"
 
 FavoriteTop.create(user_id:1, top_id:1)
