@@ -2,7 +2,7 @@
 
 <div align="center">
 <img
-    src="https://github.com/aprilfaithdays/Style-Me-Front-End/blob/master/src/icons/welcome-banner.png"
+    src="https://github.com/aprilfaithdays/StyleMe-Front-End/blob/master/src/Visuals/welcome-banner.png"
     width="100%"
   />
 </div>
@@ -23,18 +23,18 @@ Feel free to explore and experience StyleMe in the live demo link below!
 #### Quick Demo of Creating an Outfit:
 <div align="center">
 <img
-    src="https://github.com/aprilfaithdays/Style-Me-Front-End/blob/master/src/icons/createOutfit.gif"
+    src="https://github.com/aprilfaithdays/StyleMe-Front-End/blob/master/src/Visuals/createOutfit.gif"
     width="100%"
   />
 </div>
 
-### Live Demo:
-<em>Coming soon!</em>
+## Live Demo: 
+[StyleMe](https://style-me.netlify.app/)
 
-### Video Demo:
+## Video Demo:
 <em>Coming soon!</em> 
 
-### Let's Connect!
+## Let's Connect!
 [LinkedIn](https://www.linkedin.com/in/april-escobar/)
 
 <div align="center">
