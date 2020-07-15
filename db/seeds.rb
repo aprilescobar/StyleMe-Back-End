@@ -1731,7 +1731,7 @@ Bottom.create(
 
 Bottom.create(
     name:'Ankle-Length Slacks', 
-    color:'white stripped', 
+    color:'white striped', 
     category:'bottoms', 
     seasons: 'spring summer fall', 
     length: 'ankle',
@@ -3357,7 +3357,7 @@ p "likes seeded"
 
 Comment.create(user_id:2, outfit_id:1, text:'Sweet outfit!', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:3, outfit_id:1, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:1, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:1, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:5, outfit_id:1, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:6, outfit_id:1, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:7, outfit_id:1, text:'that drip 💦', created_at: "2020-07-10 20:04:35")
@@ -3367,13 +3367,13 @@ Comment.create(user_id:8, outfit_id:2, text:'ayyyyyy✨', created_at: "2020-07-0
 Comment.create(user_id:7, outfit_id:2, text:'that drip 💦', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:6, outfit_id:2, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:2, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:4, outfit_id:2, text:'❤️❤️❤️', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:4, outfit_id:2, text:'❤️ ❤️ ❤️', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:3, outfit_id:2, text:'I love this 😍', created_at: "2020-07-11 20:04:35")
 Comment.create(user_id:2, outfit_id:2, text:'Sweet outfit!', created_at: "2020-07-11 20:04:35")
 
-Comment.create(user_id:1, outfit_id:3, text:'', created_at: "2020-07-08 20:04:35")
+Comment.create(user_id:1, outfit_id:3, text:'very pretty :)', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:3, outfit_id:3, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:3, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:3, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:5, outfit_id:3, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:6, outfit_id:3, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:7, outfit_id:3, text:'that drip 💦', created_at: "2020-07-10 20:04:35")
@@ -3385,9 +3385,9 @@ Comment.create(user_id:10, outfit_id:4, text:'OOOOO I see you 👀', created_at:
 
 Comment.create(user_id:6, outfit_id:5, text:'🔥🔥🔥', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:5, outfit_id:5, text:'yasssss!!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:5, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:5, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:5, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:1, outfit_id:5, text:'', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:1, outfit_id:5, text:'very pretty :)', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:10, outfit_id:5, text:'OOOOO I see you 👀', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:11, outfit_id:5, text:'queen 👑', created_at: "2020-07-11 20:04:35")
 
@@ -3397,13 +3397,13 @@ Comment.create(user_id:14, outfit_id:6, text:'😍😍😍😍😍', created_at:
 
 Comment.create(user_id:7, outfit_id:7, text:'that drip 💦', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:6, outfit_id:7, text:'🔥🔥🔥', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:7, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:7, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:7, text:'I love this 😍', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:2, outfit_id:8, text:'Sweet outfit!', created_at: "2020-07-08 20:04:35")
-Comment.create(user_id:1, outfit_id:8, text:'', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:1, outfit_id:8, text:'very pretty :)', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:8, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:8, text:'❤️❤️❤️', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:4, outfit_id:8, text:'❤️ ❤️ ❤️', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:8, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:6, outfit_id:8, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 
@@ -3414,7 +3414,7 @@ Comment.create(user_id:14, outfit_id:9, text:'😍😍😍😍😍', created_at:
 Comment.create(user_id:15, outfit_id:9, text:'liked and commented <3', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:5, outfit_id:10, text:'yasssss!!', created_at: "2020-07-08 20:04:35")
-Comment.create(user_id:4, outfit_id:10, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:10, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:10, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:10, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
 
@@ -3426,10 +3426,10 @@ Comment.create(user_id:14, outfit_id:11, text:'😍😍😍😍😍', created_at
 
 Comment.create(user_id:7, outfit_id:12, text:'that drip 💦', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:6, outfit_id:12, text:'🔥🔥🔥', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:12, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:12, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:12, text:'I love this 😍', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:2, outfit_id:12, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:1, outfit_id:12, text:'', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:1, outfit_id:12, text:'very pretty :)', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:8, outfit_id:12, text:'ayyyyyy✨', created_at: "2020-07-11 20:04:35")
 
 Comment.create(user_id:12, outfit_id:13, text:'yes girl!', created_at: "2020-07-08 20:04:35")
@@ -3440,17 +3440,17 @@ Comment.create(user_id:8, outfit_id:13, text:'ayyyyyy✨', created_at: "2020-07-
 Comment.create(user_id:7, outfit_id:14, text:'that drip 💦', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:6, outfit_id:14, text:'🔥🔥🔥', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:5, outfit_id:14, text:'yasssss!!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:14, text:'❤️❤️❤️', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:4, outfit_id:14, text:'❤️ ❤️ ❤️', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:2, outfit_id:14, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:1, outfit_id:14, text:'', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:1, outfit_id:14, text:'very pretty :)', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:14, outfit_id:15, text:'😍😍😍😍😍', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:15, outfit_id:15, text:'liked and commented <3', created_at: "2020-07-09 20:04:35")
 
-Comment.create(user_id:1, outfit_id:16, text:'', created_at: "2020-07-08 20:04:35")
+Comment.create(user_id:1, outfit_id:16, text:'very pretty :)', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:2, outfit_id:16, text:'Sweet outfit!', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:16, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:16, text:'❤️❤️❤️', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:4, outfit_id:16, text:'❤️ ❤️ ❤️', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:16, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:6, outfit_id:16, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:7, outfit_id:16, text:'that drip 💦', created_at: "2020-07-11 20:04:35")
@@ -3464,7 +3464,7 @@ Comment.create(user_id:8, outfit_id:17, text:'ayyyyyy✨', created_at: "2020-07-
 Comment.create(user_id:6, outfit_id:17, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:5, outfit_id:18, text:'yasssss!!', created_at: "2020-07-08 20:04:35")
-Comment.create(user_id:4, outfit_id:18, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:18, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:18, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:18, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
 
@@ -3473,10 +3473,10 @@ Comment.create(user_id:13, outfit_id:19, text:'would wear this! <3', created_at:
 Comment.create(user_id:14, outfit_id:19, text:'😍😍😍😍😍', created_at: "2020-07-09 20:04:35")
 
 Comment.create(user_id:15, outfit_id:20, text:'liked and commented <3', created_at: "2020-07-08 20:04:35")
-Comment.create(user_id:1, outfit_id:20, text:'', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:1, outfit_id:20, text:'very pretty :)', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:20, text:'Sweet outfit!', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:20, text:'I love this 😍', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:4, outfit_id:20, text:'❤️❤️❤️', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:4, outfit_id:20, text:'❤️ ❤️ ❤️', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:20, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:8, outfit_id:21, text:'ayyyyyy✨', created_at: "2020-07-08 20:04:35")
@@ -3485,11 +3485,11 @@ Comment.create(user_id:15, outfit_id:21, text:'liked and commented <3', created_
 Comment.create(user_id:7, outfit_id:21, text:'that drip 💦', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:6, outfit_id:21, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:21, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:4, outfit_id:21, text:'❤️❤️❤️', created_at: "2020-07-11 20:04:35")
+Comment.create(user_id:4, outfit_id:21, text:'❤️ ❤️ ❤️', created_at: "2020-07-11 20:04:35")
 
 Comment.create(user_id:3, outfit_id:22, text:'I love this 😍', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:2, outfit_id:22, text:'Sweet outfit!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:1, outfit_id:22, text:'', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:1, outfit_id:22, text:'very pretty :)', created_at: "2020-07-09 20:04:35")
 
 Comment.create(user_id:12, outfit_id:23, text:'yes girl!', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:13, outfit_id:23, text:'would wear this! <3', created_at: "2020-07-09 20:04:35")
@@ -3500,7 +3500,7 @@ Comment.create(user_id:6, outfit_id:24, text:'🔥🔥🔥', created_at: "2020-0
 Comment.create(user_id:5, outfit_id:24, text:'yasssss!!', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:24, text:'I love this 😍', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:2, outfit_id:24, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:1, outfit_id:24, text:'', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:1, outfit_id:24, text:'very pretty :)', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:11, outfit_id:24, text:'queen 👑', created_at: "2020-07-11 20:04:35")
 
 Comment.create(user_id:12, outfit_id:25, text:'yes girl!', created_at: "2020-07-08 20:04:35")
@@ -3511,10 +3511,10 @@ Comment.create(user_id:7, outfit_id:25, text:'that drip 💦', created_at: "2020
 Comment.create(user_id:6, outfit_id:25, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:25, text:'yasssss!!', created_at: "2020-07-11 20:04:35")
 
-Comment.create(user_id:4, outfit_id:26, text:'❤️❤️❤️', created_at: "2020-07-08 20:04:35")
+Comment.create(user_id:4, outfit_id:26, text:'❤️ ❤️ ❤️', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:3, outfit_id:26, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:26, text:'Sweet outfit!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:1, outfit_id:26, text:'', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:1, outfit_id:26, text:'very pretty :)', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:26, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:9, outfit_id:26, text:'OHKAYYYYYY <3', created_at: "2020-07-10 20:04:35")
 
@@ -3523,7 +3523,7 @@ Comment.create(user_id:11, outfit_id:27, text:'queen 👑', created_at: "2020-07
 Comment.create(user_id:7, outfit_id:27, text:'that drip 💦', created_at: "2020-07-09 20:04:35")
 
 Comment.create(user_id:5, outfit_id:28, text:'yasssss!!', created_at: "2020-07-08 20:04:35")
-Comment.create(user_id:4, outfit_id:28, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:28, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:28, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:28, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
 
@@ -3534,7 +3534,7 @@ Comment.create(user_id:9, outfit_id:29, text:'OHKAYYYYYY <3', created_at: "2020-
 Comment.create(user_id:5, outfit_id:30, text:'yasssss!!', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:3, outfit_id:30, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:30, text:'Sweet outfit!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:1, outfit_id:30, text:'', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:1, outfit_id:30, text:'very pretty :)', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:15, outfit_id:30, text:'liked and commented <3', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:11, outfit_id:31, text:'queen 👑', created_at: "2020-07-08 20:04:35")
@@ -3543,11 +3543,11 @@ Comment.create(user_id:9, outfit_id:31, text:'OHKAYYYYYY <3', created_at: "2020-
 Comment.create(user_id:7, outfit_id:31, text:'that drip 💦', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:6, outfit_id:31, text:'🔥🔥🔥', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:5, outfit_id:31, text:'yasssss!!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:4, outfit_id:31, text:'❤️❤️❤️', created_at: "2020-07-11 20:04:35")
+Comment.create(user_id:4, outfit_id:31, text:'❤️ ❤️ ❤️', created_at: "2020-07-11 20:04:35")
 Comment.create(user_id:3, outfit_id:31, text:'I love this 😍', created_at: "2020-07-11 20:04:35")
 
 Comment.create(user_id:2, outfit_id:32, text:'Sweet outfit!', created_at: "2020-07-08 20:04:35")
-Comment.create(user_id:1, outfit_id:32, text:'', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:1, outfit_id:32, text:'very pretty :)', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:13, outfit_id:32, text:'would wear this! <3', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:12, outfit_id:32, text:'yes girl!', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:11, outfit_id:32, text:'queen 👑', created_at: "2020-07-10 20:04:35")
@@ -3555,10 +3555,10 @@ Comment.create(user_id:11, outfit_id:32, text:'queen 👑', created_at: "2020-07
 Comment.create(user_id:10, outfit_id:33, text:'OOOOO I see you 👀', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:6, outfit_id:33, text:'🔥🔥🔥', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:5, outfit_id:33, text:'yasssss!!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:33, text:'❤️❤️❤️', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:4, outfit_id:33, text:'❤️ ❤️ ❤️', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:3, outfit_id:33, text:'I love this 😍', created_at: "2020-07-10 20:04:35")
 
-Comment.create(user_id:1, outfit_id:34, text:'', created_at: "2020-07-08 20:04:35")
+Comment.create(user_id:1, outfit_id:34, text:'very pretty :)', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:15, outfit_id:34, text:'liked and commented <3', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:14, outfit_id:34, text:'😍😍😍😍😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:13, outfit_id:34, text:'would wear this! <3', created_at: "2020-07-10 20:04:35")
@@ -3566,10 +3566,10 @@ Comment.create(user_id:9, outfit_id:34, text:'OHKAYYYYYY <3', created_at: "2020-
 Comment.create(user_id:8, outfit_id:34, text:'ayyyyyy✨', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:5, outfit_id:35, text:'yasssss!!', created_at: "2020-07-08 20:04:35")
-Comment.create(user_id:4, outfit_id:35, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:35, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:35, text:'I love this 😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:2, outfit_id:35, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
-Comment.create(user_id:1, outfit_id:35, text:'', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:1, outfit_id:35, text:'very pretty :)', created_at: "2020-07-10 20:04:35")
 
 Comment.create(user_id:15, outfit_id:36, text:'liked and commented <3', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:14, outfit_id:36, text:'😍😍😍😍😍', created_at: "2020-07-09 20:04:35")
@@ -3581,7 +3581,7 @@ Comment.create(user_id:10, outfit_id:36, text:'OOOOO I see you 👀', created_at
 
 Comment.create(user_id:6, outfit_id:37, text:'🔥🔥🔥', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:5, outfit_id:37, text:'yasssss!!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:37, text:'❤️❤️❤️', created_at: "2020-07-09 20:04:35")
+Comment.create(user_id:4, outfit_id:37, text:'❤️ ❤️ ❤️', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:3, outfit_id:37, text:'I love this 😍', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:2, outfit_id:37, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
 
@@ -3593,11 +3593,11 @@ Comment.create(user_id:15, outfit_id:38, text:'liked and commented <3', created_
 Comment.create(user_id:7, outfit_id:39, text:'that drip 💦', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:6, outfit_id:39, text:'🔥🔥🔥', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:5, outfit_id:39, text:'yasssss!!', created_at: "2020-07-09 20:04:35")
-Comment.create(user_id:4, outfit_id:39, text:'❤️❤️❤️', created_at: "2020-07-10 20:04:35")
+Comment.create(user_id:4, outfit_id:39, text:'❤️ ❤️ ❤️', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:3, outfit_id:39, text:'I love this 😍', created_at: "2020-07-10 20:04:35")
 Comment.create(user_id:2, outfit_id:39, text:'Sweet outfit!', created_at: "2020-07-10 20:04:35")
 
-Comment.create(user_id:1, outfit_id:40, text:'', created_at: "2020-07-08 20:04:35")
+Comment.create(user_id:1, outfit_id:40, text:'very pretty :)', created_at: "2020-07-08 20:04:35")
 Comment.create(user_id:14, outfit_id:40, text:'😍😍😍😍😍', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:13, outfit_id:40, text:'would wear this! <3', created_at: "2020-07-09 20:04:35")
 Comment.create(user_id:8, outfit_id:40, text:'ayyyyyy✨', created_at: "2020-07-10 20:04:35")
