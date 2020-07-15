@@ -786,7 +786,7 @@ Top.create(
 
 Top.create(
     name:'Fine-Knit Sweater', 
-    color:'black stripped', 
+    color:'black striped', 
     category:'tops', 
     seasons: 'fall winter', 
     sleeve_length: 'long',
